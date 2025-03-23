@@ -1,4 +1,4 @@
-# 🚀 UOC - Visualizacion de Datos PEC2
+# :rocket: UOC - Visualizacion de Datos PEC2
 
 Este repositorio contiene la solución del **Caso Práctico 2**, en el cual se ha desplegado una infraestructura en **Microsoft Azure** de forma automatizada utilizando **Terraform** y **Ansible**. Se incluyen configuraciones para la creación de recursos en la nube, instalación de servicios y despliegue de aplicaciones en contenedores con almacenamiento persistente.
 
