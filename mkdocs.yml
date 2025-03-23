@@ -71,7 +71,7 @@ plugins:
   - awesome-pages
   - drawio
   - with-pdf:
-      cover_subtitle: "Despliegue y configuración de infraestructura en Azure"
+      cover_subtitle: "Visualizacion de Datos - PEC2"
 
 # css
 extra_css:
