@@ -12,7 +12,7 @@
 ##### Tipo de visualización
 Los diagramas de caja o Box Plot muestran la distribución de datos para una variable continua.
 
-![Box Plot](docs/assets/images/BoxPlot.JPG)
+![Box Plot](../docs/assets/images/BoxPlot.JPG)
 ##### Origen
 
 ##### Propósito
