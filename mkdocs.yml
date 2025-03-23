@@ -1,7 +1,7 @@
-site_name: Unir CP2
+site_name: UOC Master Ciencia de Datos
 site_description: Automatización de Infraestructura en Azure con Terraform y Ansible
-repo_url: https://github.com/charlstown/unir-cp2
-site_author: Carlos Grande
+repo_url: https://github.com/mloperez/VisualizacionDatosPEC2
+site_author: Maria López Pérez
 
 # Configuration
 # Theme
@@ -85,7 +85,7 @@ extra_javascript:
   - assets/javascripts/drawio-reload.js
 
 # Copyright message
-copyright: Copyright &copy; Unir CP2 - 2025
+copyright: Copyright &copy; UOC Master Ciencia de Datos - 2025
 
 # Global variables
 extra:
