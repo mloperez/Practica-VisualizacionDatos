@@ -8,7 +8,7 @@
 ---
 
 ## Definición de técnica de visualización
-### Descripción: nombre, origen, funcionamiento, ejemplos de aplicación
+#### Descripción: nombre, origen, funcionamiento, ejemplos de aplicación
 Diagrama de dispersión o scatterplot, es un tipo de visualización de datos en el que se representa dos variables distintas. En el eje horizontal (eje X) representa los valores de una variable, denominada variable independiente. El eje vertical (eje Y) representa los valores de la otra variable, conocida como variable dependiente.
 
 
@@ -25,9 +25,9 @@ Como se ha comentado anteriormente, en los diagramas de dispoersión se represen
 #### ¿hay medida mínima y máxima del juego de datos para cada técnica?
 
 ## Explicación de la visualización
-### Visualización 1 - Diagrama de dispersión o scatterplot
-### ¿Qué tipos de datos se utiliza? 
-### ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
+#### Visualización 1 - Diagrama de dispersión o scatterplot
+#### ¿Qué tipos de datos se utiliza? 
+#### ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
 
 ---
 
