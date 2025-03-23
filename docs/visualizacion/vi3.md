@@ -12,6 +12,9 @@
 ##### Tipo de visualización
 Isotype charts y Unit charts son visualizaciones que muestran cantidades o valores mediante iconos, unidades, o elementos gráficos representativos, en lugar de usar barras o líneas tradicionales.
 
+A continuación se muestra un ejemplo de un diagrama Isotype, donde se puede ver facilmente la relación de cantidad de personas con respecto a animales en Reino Unido y America.
+![Isotype](../../docs/assets/images/isotype.JPG)
+
 
 
 ##### Origen
@@ -42,6 +45,8 @@ Como se ha visto anteriormente los datos que representan tienen que ser fijos, p
 Este tipo de representación puede resultar muy atrativa y fácil de entender para cantidades pequeñas. Algunas de las limitaciones que encontramos con este tipo de representación:
 - Dificultad de entendimiento con grandes conjuntos de datos.
 - Dificultad para su uso en relaciones complejas de variables.
+- Dificultad de representación en datos que no sean multiplos a los valores establecidos.
+No es la mejor representación para conocer los valores exactos, pero si para poder comparar elementos facilmente y poder obtener información rápida. 
 
 #### ¿hay medida mínima y máxima del juego de datos para esta técnica?
 
