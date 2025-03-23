@@ -2,7 +2,7 @@
 
 Este repositorio contiene la solución del **PEC 2**, en el cual se ha desplegado una infraestructura en **Microsoft Azure** de forma automatizada utilizando **Terraform** y **Ansible**. Se incluyen configuraciones para la creación de recursos en la nube, instalación de servicios y despliegue de aplicaciones en contenedores con almacenamiento persistente.
 
-## 🎯 Objetivos
+## :diana: Objetivos
 
 - Crear infraestructura en **Azure** de forma automatizada.
 - Gestionar la configuración con **Ansible**.
