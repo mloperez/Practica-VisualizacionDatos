@@ -24,4 +24,4 @@
 
 ---
 
-**[Volver a Página de Inicio](../index.md)**
+**[Volver a Página de Inicio](.../index.md)**
