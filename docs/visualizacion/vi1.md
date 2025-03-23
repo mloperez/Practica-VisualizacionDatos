@@ -2,8 +2,8 @@
 
 
 - [1. Definición de la técnica de visualización utilizada](#Definición-de-la-técnica-de-visualizacion)
-- [2. Descripción de datos utilizados](#Descripción-de-datos-utilizados)
-- [3. Explicación de la visualización](#Explicación-de-la-visualización)
+- [2. Descripción de los datos utilizados](#Descripción-de-los-datos-utilizados)
+- [3. Detalle de la visualización realizada](#Detalle-de-la-visualización-realizada)
 
 ---
 
@@ -12,7 +12,7 @@
 Diagrama de dispersión o scatterplot, es un tipo de visualización de datos en el que se representa dos variables distintas. En el eje horizontal (eje X) representa los valores de una variable, denominada variable independiente. El eje vertical (eje Y) representa los valores de la otra variable, conocida como variable dependiente.
 
 
-## Descripción de datos utilizados
+## Descripción de los datos utilizados
 #### Los datos utilizados ¿Son cuantitativos o cualitativos?
 
 Los gráficos de dispersión se utilizan para identificar patrones, tendencias y posibles correlaciones entre las variables que se analizan. Por tanto, los mejores datos para un diagrama de dispersión son aquellos donde tienes dos variables numéricas (cuantitativas) que deseas comparar o analizar en términos de su relación o correlación.
@@ -24,7 +24,7 @@ Como se ha comentado anteriormente, en los diagramas de dispoersión se represen
 #### ¿Existe alguna limitación en los datos para esta técnica? 
 #### ¿hay medida mínima y máxima del juego de datos para cada técnica?
 
-## Explicación de la visualización
+## Detalle de la visualización realizada
 #### Visualización 1 - Diagrama de dispersión o scatterplot
 #### ¿Qué tipos de datos se utiliza? 
 #### ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
