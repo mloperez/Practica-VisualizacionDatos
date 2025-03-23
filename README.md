@@ -36,5 +36,5 @@ El proyecto se organiza en tres grandes bloques: infraestructura, despliegue y d
 
 ---
 
-📌 **Autor**: *[@charlstown](https://github.com/charlstown)*  
+📌 **Autor**: *[@mloperez](https://github.com/mloperez)*  
 📌 **Fecha**: *23-03-2025*
