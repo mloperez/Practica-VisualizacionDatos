@@ -1,18 +1,24 @@
 # Inicio
 
-:blue_book: Asignatura: **Visualización de Datos**
+📘 Asignatura: **Visualización de Datos**
 
-:fontawesome-solid-user: Alumno: **Maria López Pérez**
+🔖 Actividad: **PEC 2**
 
-:material-calendar: Fecha: **23/04/25**
+👩‍💼 Alumno: **Maria López Pérez**
 
-Este informe documenta la entrega del Caso Práctico 2 de la asignatura DevOps & Cloud del programa avanzado DevOps de la UNIR. El contenido del informe se estructura en las siguientes secciones:
+📆 Fecha: **23/04/25**
+
+Este informe documenta la entrega de la PEC 2 de la asignatura Visualización de Datos del Máster de Ciencia de Datos de la UOC. El contenido del informe se estructura en las siguientes secciones:
 
     Objetivo: Descripción de los componentes desplegados y su configuración.
     Desarrollo: Ejecución práctica de la infraestructura y su configuración.
     Evidencias: Recopilación de pruebas de funcionamiento y validaciones.
     Licencia: Definición del marco legal de uso.
     Referencias: Fuentes utilizadas en el desarrollo del ejercicio.
+
+- **[Objetivos](./objetivos/index.md)**: Descripción de los componentes desplegados y su configuración.  
+- **[Visualizaciones](./visualizacion/index.md)**: Ejecución práctica de la infraestructura y su configuración.  
+- **[Referencias](./referencias.md)**: Fuentes utilizadas en el desarrollo del ejercicio.  
 
 Para la generación del informe, se ha utilizado MkDocs, una librería de Python para la creación de documentación técnica (MkDocs, s.f.), junto con el plugin WithPDF, que permite la exportación a formato PDF (WithPDF, s.f.). Esta elección responde a la naturaleza del caso práctico, en el que una de las tareas consiste en desplegar una imagen estática de una web en Nginx sin persistencia. Dado que MkDocs genera HTML estático, se ha integrado su uso dentro del ejercicio para la documentación y su despliegue.
 
