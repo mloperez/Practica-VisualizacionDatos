@@ -10,10 +10,10 @@
 
 Este informe documenta la entrega de la PEC 2 de la asignatura Visualización de Datos del Máster de Ciencia de Datos de la UOC. El contenido del informe se estructura en las siguientes secciones:
 
-- [Introducción](#Introduccion)
-- [Objetivos](#Objetivos) : Descripción de los componentes desplegados y su configuración.  
-- **[Visualizaciones](./visualizacion/index.md)**: Ejecución práctica de la infraestructura y su configuración.  
-- **[Referencias](./referencias.md)**: Fuentes utilizadas en el desarrollo del ejercicio.  
+- **[Introducción](#Introduccion)**
+- **[Objetivos](#Objetivos)**
+- **[Visualizaciones](#Visualizaciones)**
+- **[Referencias](#Referencias)**
 
 Para la generación del informe, se ha utilizado MkDocs, una librería de Python para la creación de documentación técnica (MkDocs, s.f.), junto con el plugin WithPDF, que permite la exportación a formato PDF (WithPDF, s.f.). Esta elección responde a la naturaleza del caso práctico, en el que una de las tareas consiste en desplegar una imagen estática de una web en Nginx sin persistencia. Dado que MkDocs genera HTML estático, se ha integrado su uso dentro del ejercicio para la documentación y su despliegue.
 
@@ -31,3 +31,11 @@ Este repositorio contiene la solución del **Caso Práctico 2**, en el cual se h
 - Utilizar herramientas de gestión de la configuración para automatizar la instalación y configuración de servicios.
 - Desplegar mediante un enfoque totalmente automatizado aplicaciones en forma de contenedor sobre el sistema operativo.
 - Desplegar mediante un enfoque totalmente automatizado aplicaciones que hagan uso de almacenamiento persistente sobre una plataforma de orquestación de contenedores.
+
+## Visualizaciones
+
+- **[Visualizaciones](./visualizacion/index.md)**: Ejecución práctica de la infraestructura y su configuración.
+
+## Referencias
+
+[Referencias](./referencias.md)**
