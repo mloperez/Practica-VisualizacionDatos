@@ -1,15 +1,15 @@
-# :rocket: UOC - Visualizacion de Datos PEC2
+# 🔖 UOC - Visualizacion de Datos PEC2
 
 Este repositorio contiene la solución del **PEC 2**, en el cual se ha desplegado una infraestructura en **Microsoft Azure** de forma automatizada utilizando **Terraform** y **Ansible**. Se incluyen configuraciones para la creación de recursos en la nube, instalación de servicios y despliegue de aplicaciones en contenedores con almacenamiento persistente.
 
-## :diana: Objetivos
+## 🎯 Objetivos
 
 - Crear infraestructura en **Azure** de forma automatizada.
 - Gestionar la configuración con **Ansible**.
 - Desplegar aplicaciones en contenedores sobre **Linux y AKS**.
 - Implementar almacenamiento persistente en **Kubernetes**.
 
-## 🗂️ Estructura del repositorio
+## 📁 Estructura del repositorio
 
 El proyecto se organiza en tres grandes bloques: infraestructura, despliegue y documentación. A continuación se resume su estructura principal:
 
