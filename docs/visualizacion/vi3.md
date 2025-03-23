@@ -21,3 +21,7 @@
 ### Visualización 3 - Isotype & Unit charts
 ### ¿Qué tipos de datos se utiliza? 
 ### ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
+
+---
+
+**[Volver a Página de Inicio](./index.md)**
