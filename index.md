@@ -50,4 +50,4 @@ A continucación se muestran cada una de las visualizaciones realizadas para las
 
 ## Referencias
 
-[Referencias](./referencias.md)**
+[Referencias](./docs/referencias.md)**
