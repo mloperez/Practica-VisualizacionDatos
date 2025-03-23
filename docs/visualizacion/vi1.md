@@ -21,3 +21,7 @@
 ### Visualización 1 - Diagrama de dispersión o scatterplot
 ### ¿Qué tipos de datos se utiliza? 
 ### ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
+
+---
+
+**[Volver a Página de Inicio](./index.md)**
