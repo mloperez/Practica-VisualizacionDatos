@@ -1,13 +1,13 @@
 # Visualización 1 - Diagrama de dispersión o scatterplot
 
 
-- [1. Definición de técnica](#Definición-de-técnica)
+- [1. Definición de la técnica de visualización utilizada](#Definición-de-la-técnica-de-visualizacion)
 - [2. Descripción de datos utilizados](#Descripción-de-datos-utilizados)
 - [3. Explicación de la visualización](#Explicación-de-la-visualización)
 
 ---
 
-## Definición de técnica de visualización
+## Definición de la técnica de visualización utilizada
 #### Descripción: nombre, origen, funcionamiento, ejemplos de aplicación
 Diagrama de dispersión o scatterplot, es un tipo de visualización de datos en el que se representa dos variables distintas. En el eje horizontal (eje X) representa los valores de una variable, denominada variable independiente. El eje vertical (eje Y) representa los valores de la otra variable, conocida como variable dependiente.
 
