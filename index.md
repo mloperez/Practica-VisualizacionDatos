@@ -10,13 +10,8 @@
 
 Este informe documenta la entrega de la PEC 2 de la asignatura Visualización de Datos del Máster de Ciencia de Datos de la UOC. El contenido del informe se estructura en las siguientes secciones:
 
-    Objetivo: Descripción de los componentes desplegados y su configuración.
-    Desarrollo: Ejecución práctica de la infraestructura y su configuración.
-    Evidencias: Recopilación de pruebas de funcionamiento y validaciones.
-    Licencia: Definición del marco legal de uso.
-    Referencias: Fuentes utilizadas en el desarrollo del ejercicio.
-
-- **[Objetivos](./objetivos/index.md)**: Descripción de los componentes desplegados y su configuración.  
+- [Introducción](#Introduccion)
+- [Objetivos](#Objetivos) : Descripción de los componentes desplegados y su configuración.  
 - **[Visualizaciones](./visualizacion/index.md)**: Ejecución práctica de la infraestructura y su configuración.  
 - **[Referencias](./referencias.md)**: Fuentes utilizadas en el desarrollo del ejercicio.  
 
