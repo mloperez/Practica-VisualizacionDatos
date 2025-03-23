@@ -12,6 +12,9 @@
 Diagrama de dispersión o scatterplot, es un tipo de visualización de datos en el que se representa dos variables distintas. En el eje horizontal (eje X) representa los valores de una variable, denominada variable independiente. El eje vertical (eje Y) representa los valores de la otra variable, conocida como variable dependiente.
 PONER MAS COSAS, TENDENCIAS, FUNCIONAMIENTO, ORIGEN...
 
+![Diagrama de dispersión o Scatter plot](../../docs/assets/images/dispersion.JPG)
+
+
 ## Descripción de los datos utilizados
 #### Los datos utilizados ¿Son cuantitativos o cualitativos?
 
