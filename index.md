@@ -1,44 +1,24 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Informe - Evidencias</title>
-  <!-- Link a Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-  <header class="bg-primary text-white text-center py-3">
-    <h1>Informe de Evidencias</h1>
-    <nav>
-      <ul class="nav justify-content-center">
-        <li class="nav-item"><a class="nav-link text-white" href="#seccion1">Sección 1</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#seccion2">Sección 2</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#seccion3">Sección 3</a></li>
-      </ul>
-    </nav>
-  </header>
+# Inicio
 
-  <main class="container my-5">
-    <section id="seccion1" class="mb-4">
-      <h2 class="text-primary">Sección 1</h2>
-      <p>Contenido de la sección 1...</p>
-    </section>
-    <section id="seccion2" class="mb-4">
-      <h2 class="text-primary">Sección 2</h2>
-      <p>Contenido de la sección 2...</p>
-    </section>
-    <section id="seccion3" class="mb-4">
-      <h2 class="text-primary">Sección 3</h2>
-      <p>Contenido de la sección 3...</p>
-    </section>
-  </main>
+:blue_book: Asignatura: **Devops & Cloud**
 
-  <footer class="bg-light text-center py-3">
-    <p class="mb-0">© 2025 María</p>
-  </footer>
+:fontawesome-solid-user: Alumno: **Carlos Grande Núñez**
 
-  <!-- Link a Bootstrap JS (opcional para interactividad) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+:material-calendar: Fecha: **23/03/25**
+
+El informe en PDF ha sido generado a partir de la documentación escrita en Markdown utilizando MkDocs, una librería escrita en Python que me parece muy interesante y que uso habitualmente en mi día a día. Además, el informe completo se encuentra disponible online a través de GitHub Pages, recomiendo acceder a la versión online ya que considero que es mucho más ágil su lectura.
+
+[:octicons-browser-16: Ir a la versión online](https://charlstown.github.io/unir-cp2){ .md-button }
+
+## Introducción
+
+Este repositorio contiene la solución del **Caso Práctico 2**, en el cual se ha desplegado una infraestructura en **Microsoft Azure** de forma automatizada utilizando **Terraform** y **Ansible**. Se incluyen configuraciones para la creación de recursos en la nube, instalación de servicios y despliegue de aplicaciones en contenedores con almacenamiento persistente.
+
+![diagrama enunciado](./assets/images/diagrama-enunciado.png)
+
+## Objetivos
+
+- Crear infraestructura de forma automatizada en un proveedor de Cloud pública.
+- Utilizar herramientas de gestión de la configuración para automatizar la instalación y configuración de servicios.
+- Desplegar mediante un enfoque totalmente automatizado aplicaciones en forma de contenedor sobre el sistema operativo.
+- Desplegar mediante un enfoque totalmente automatizado aplicaciones que hagan uso de almacenamiento persistente sobre una plataforma de orquestación de contenedores.
