@@ -55,4 +55,4 @@ Aquí está el informe de Looker Studio incrustado en mi página de documentaci�
 
 ---
 
-**[Volver a Página de Inicio](../../index.md)**
+**[Volver a Página de Inicio](../index.md)**
