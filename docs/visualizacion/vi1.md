@@ -47,9 +47,9 @@ Para este tipo de visualización sí existe medida mínima y máxima de los dato
 
 Aquí está el informe de Looker Studio incrustado en mi página de documentación.
 
-<div style="position:relative; height:0; padding-bottom:56.25%; overflow:hidden; max-width:100%; height:auto;">
-    <iframe src="https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0" allowfullscreen></iframe>
-</div>
+Haz clic en la imagen para ver el informe de Looker Studio.
+
+[![Vista previa del informe](https://www.example.com/imagen-de-previa.png)](https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab)
 
 
 
