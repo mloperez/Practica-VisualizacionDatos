@@ -42,7 +42,6 @@ Para este tipo de visualización sí existe medida mínima y máxima de los dato
 #### Visualización 1 - Diagrama de dispersión o scatterplot
 Para crear un diagrama de dispersión o scatterplot se ha seguido el siguiente proceso:
 
-!!! note "Pasos del análisis de datos"
     1. **Elección de conjunto de datos**
     2. **Análisis de los datos**
     3. **Importación de los datos**
