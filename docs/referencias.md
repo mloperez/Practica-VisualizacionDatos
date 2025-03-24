@@ -1,6 +1,6 @@
 # Referencias
 
-Diagrama de dispersión. (s.f., Severino Ribecca). *Catálogo de Visualización de Datos *. Visualization Documentation. Recuperado de [https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html)
+Diagrama de dispersión. (s.f., Severino Ribecca). *Catálogo de Visualización de Datos *. Recuperado de [https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html)
 
 Ansible. (s.f.-b). *Ansible configuration settings*. Ansible Documentation. Recuperado de [https://docs.ansible.com/ansible/latest/reference_appendices/config.html](https://docs.ansible.com/ansible/latest/reference_appendices/config.html)
 
