@@ -78,6 +78,7 @@ Cuestiones relevantes acerca de la visualización mostrada:
   Como hemos visto anteriormente, los diagramas de dispersión son idelaes cuando se tienen datos numéricos y se desea saber si existe una relación directa entre ellos. En este caso las variables a tratar son ph y quality.
 
   ph --> datos de tipo decimal.
+
   quality --> datos de tipo entero.
   
 - ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
