@@ -48,7 +48,7 @@ Para crear un diagrama de dispersión o scatterplot se ha seguido el siguiente p
 4. Preparación de los datos
 5. Visualización de los datos
    
-*Elección de conjunto de datos* - El conjunto de datos elegido es [![Red Wine Quality](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) encontrados en la plataforma Kaggle.
+*Elección de conjunto de datos* - El conjunto de datos elegido es [Red Wine Quality](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) de la plataforma Kaggle.
 
 Aquí está el informe de Looker Studio incrustado en mi página de documentación.
 
