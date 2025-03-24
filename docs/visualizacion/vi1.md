@@ -40,10 +40,15 @@ Para este tipo de visualización sí existe medida mínima y máxima de los dato
 
 ## Detalle de la visualización realizada
 #### Visualización 1 - Diagrama de dispersión o scatterplot
+Para crear un diagrama de dispersión o scatterplot se ha seguido el siguiente proceso:
 
-# Informe de Looker Studio
-
-# Informe de Looker Studio
+1. Elección de conjunto de datos
+2. Análisis de los datos
+3. Importación de los datos
+4. Preparación de los datos
+5. Visualización de los datos
+   
+*Elección de conjunto de datos* - El conjunto de datos elegido es [![Red Wine Quality](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) encontrados en la plataforma Kaggle.
 
 Aquí está el informe de Looker Studio incrustado en mi página de documentación.
 
