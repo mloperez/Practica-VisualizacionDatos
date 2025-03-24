@@ -48,20 +48,36 @@ Para crear un diagrama de dispersión o scatterplot se ha seguido el siguiente p
 4. Preparación de los datos
 5. Visualización de los datos
    
-*Elección de conjunto de datos* - El conjunto de datos elegido es [Red Wine Quality](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) de la plataforma Kaggle.
-
-Aquí está el informe de Looker Studio incrustado en mi página de documentación.
-
-Haz clic en la imagen para ver el informe de Looker Studio.
-
+- *Elección de conjunto de datos* - El conjunto de datos elegido es [Red Wine Quality](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) de la plataforma Kaggle.
+- *Análisis de los datos* - Se revisan los datos elegidos cuyas variables elegidas para la visualización son ph y quality, de todas las que se muestran a continuación:
+  
+   Input variables (based on physicochemical tests):
+    - fixed acidity
+    - volatile acidity
+    - citric acid
+    - residual sugar
+    - chlorides
+    - free sulfur dioxide
+    - total sulfur dioxide
+    - density
+    - pH
+    - sulphates
+    - alcohol
+  Output variable (based on sensory data):
+    - quality (score between 0 and 10) 
+- *Importación de datos* - La herramienta elegida para esta visualización es LookerStudio, donde se ha importado el conjunto de datos por csv
+- *Preparación de los datos* - En este caso, para esta visualización, no ha hecho falta realzar ninguna transformación en los datos.
+- *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
+  
 [![Vista previa del informe](../../docs/assets/images/Visualizacion_dispersion.JPG)](https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab)
 
 
-
-
-#### ¿Qué tipos de datos se utiliza? 
-#### ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
-
+Cuestiones relevantes acerca de la visualización mostrada:
+- ¿Qué tipos de datos se utiliza?
+  Los diagramas de dispersión son ideales cuando se tienen datos numéricos y se desea saber si existe una relación directa entre los datos.
+- ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
+  Muestra la relación que existe entre el ph de vinos rojos Portugueses y su calidad. Como se puede observar existe una relación positiva ya que a medida que los valores de una variable aumenta, los valores de la otra variable también tienden a aumentar.
+  
 ---
 
 **[Volver a Página de Inicio](../index.md)**
