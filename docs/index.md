@@ -44,9 +44,9 @@ Las tres técnicas de visualización son:
 
 A continucación se muestran cada una de las visualizaciones realizadas para las tres técnicas mencionadas anteriormente:
 
-- **[Visualización 1](./docs/visualizacion/vi1.md)**
-- **[Visualización 2](./docs/visualizacion/vi2.md)**
-- **[Visualización 3](./docs/visualizacion/vi3.md)**
+- **[Visualización 1](./visualizacion/vi1.md)**
+- **[Visualización 2](./visualizacion/vi2.md)**
+- **[Visualización 3](./visualizacion/vi3.md)**
 
 ## Referencias
 
