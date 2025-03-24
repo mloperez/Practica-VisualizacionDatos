@@ -1,6 +1,6 @@
 # Referencias
 
-Ansible. (s.f.-a). *Best practices for structuring Ansible playbooks*. Ansible Documentation. Recuperado de [https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html](https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html)
+Ansible. (s.f.-a). *Best practices for structuring Ansible playbooks*. Ansible Documentation. Recuperado de [https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html](https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html)
 
 Ansible. (s.f.-b). *Ansible configuration settings*. Ansible Documentation. Recuperado de [https://docs.ansible.com/ansible/latest/reference_appendices/config.html](https://docs.ansible.com/ansible/latest/reference_appendices/config.html)
 
