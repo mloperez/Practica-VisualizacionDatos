@@ -49,7 +49,7 @@ Aquí está el informe de Looker Studio incrustado en mi página de documentaci�
 
 Haz clic en la imagen para ver el informe de Looker Studio.
 
-[![Vista previa del informe](https://www.example.com/imagen-de-previa.png)](https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab)
+[![Vista previa del informe](docs/assets/images/Visualizacion_dispersion.JPG)](https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab)
 
 
 
