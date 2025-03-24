@@ -42,12 +42,12 @@ Para este tipo de visualización sí existe medida mínima y máxima de los dato
 #### Visualización 1 - Diagrama de dispersión o scatterplot
 Para crear un diagrama de dispersión o scatterplot se ha seguido el siguiente proceso:
 
-      1. Elección de conjunto de datos
-      2. Análisis de los datos
-      3. Importación de los datos
-      4. Preparación de los datos
-      5. Visualización de los datos
-   
+1. Elección de conjunto de datos
+2. Análisis de los datos
+3. Importación de los datos
+4. Preparación de los datos
+5. Visualización de los datos
+
 - *Elección de conjunto de datos* - El conjunto de datos elegido es [Red Wine Quality](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) de la plataforma Kaggle.
 - *Análisis de los datos* - Se revisan los datos elegidos cuyas variables elegidas para la visualización son ph y quality, de todas las que se muestran a continuación:
   
