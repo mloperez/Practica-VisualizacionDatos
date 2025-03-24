@@ -64,4 +64,4 @@ Para este tipo de visualización sí existe medida mínima y máxima de los dato
 
 ---
 
-**[Volver a Página de Inicio](../../index.md)**
+**[Volver a Página de Inicio](../index.md)**
