@@ -71,7 +71,7 @@ Para crear un diagrama de dispersión o scatterplot se ha seguido el siguiente p
 
 [![Vista previa del informe](../../docs/assets/images/Visualizacion_dispersion.JPG)](https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab) 
 
-*Nota:Hacer click en la imagen*
+*Nota: Hacer click en la imagen*
 
 
 Cuestiones relevantes acerca de la visualización mostrada:
