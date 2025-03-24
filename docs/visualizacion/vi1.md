@@ -40,6 +40,16 @@ Para este tipo de visualización sí existe medida mínima y máxima de los dato
 
 ## Detalle de la visualización realizada
 #### Visualización 1 - Diagrama de dispersión o scatterplot
+Aquí está el informe de Looker Studio incrustado en mi página de documentación.
+
+<iframe
+    width="100%"
+    height="600"
+    src="https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab"
+    frameborder="0"
+    allowfullscreen
+></iframe>
+
 #### ¿Qué tipos de datos se utiliza? 
 #### ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
 
