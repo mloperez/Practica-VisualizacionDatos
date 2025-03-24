@@ -74,9 +74,15 @@ Para crear un diagrama de dispersión o scatterplot se ha seguido el siguiente p
 
 Cuestiones relevantes acerca de la visualización mostrada:
 - ¿Qué tipos de datos se utiliza?
-  Los diagramas de dispersión son ideales cuando se tienen datos numéricos y se desea saber si existe una relación directa entre los datos.
+
+  Como hemos visto anteriormente, los diagramas de dispersión son idelaes cuando se tienen datos numéricos y se desea saber si existe una relación directa entre ellos. En este caso las variables a tratar son ph y quality.
+
+  ph --> datos de tipo decimal.
+  quality --> datos de tipo entero.
+  
 - ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
-  Muestra la relación que existe entre el ph de vinos rojos Portugueses y su calidad. Como se puede observar existe una relación positiva ya que a medida que los valores de una variable aumenta, los valores de la otra variable también tienden a aumentar.
+
+  El diagrama de dispersión muestra la relación que existe entre el ph de vinos rojos Portugueses y su calidad. Como se puede observar existe una relación positiva ya que a medida que los valores de una variable aumenta, los valores de la otra variable también tienden a aumentar.
   
 ---
 
