@@ -7,7 +7,7 @@
 
 ---
 
-## 🔵 Definición de la técnica de visualización utilizada
+## 🔹 Definición de la técnica de visualización utilizada
 Diagrama de dispersión o scatterplot, es un tipo de visualización de datos en el que se representa dos variables distintas. En el eje horizontal (eje X) representa los valores de una variable, denominada variable independiente. El eje vertical (eje Y) representa los valores de la otra variable, conocida como variable dependiente.
 
 ![Diagrama de dispersión o Scatter plot](../../docs/assets/images/DispersionEjemplo.JPG)
@@ -33,7 +33,7 @@ Con este tipo de representación podemos analizar la relación que existen entre
 - *Relación entre el consumo de calorías y la actividad física:* En analisis de nutrición se puede usar un diagrama de dispersión para ver si existe alguna relación entre el consumo de calorías y el nivel de actividad física de una persona.
 - *Relación entre horas de sueño y notas académicas:* En analisis académicos se puede usar un diagrama de dispersión para ver si existe alguna relación entre las horas de sueño y las notas de un alumno.
 
-## 🟡 Descripción de los datos utilizados
+## 🔸 Descripción de los datos utilizados
 #### Los datos utilizados ¿Son cuantitativos o cualitativos?
 
 Los gráficos de dispersión se utilizan para identificar patrones, tendencias y posibles correlaciones entre las variables que se analizan. Por tanto, los mejores datos para un diagrama de dispersión son aquellos donde tienes dos variables numéricas (cuantitativas) que deseas comparar o analizar en términos de su relación o correlación.
@@ -56,7 +56,7 @@ Para este tipo de visualización sí existe medida mínima y máxima de los dato
   
 - Medida máxima --> Aunque los diagramas de dispersión pueden manejar gran cantidad de datos, se debe realizar una buena limpieza de los datos y realiar un buen uso del los colores para que no sea dificil la interpretación.
 
-## 🟢 Detalle de la visualización realizada
+## ◾ Detalle de la visualización realizada
 #### Visualización 1 - Diagrama de dispersión o scatterplot
 
 Pasos del análisis de datos:
