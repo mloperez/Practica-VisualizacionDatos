@@ -18,8 +18,8 @@ theme:
   #custom_dir: overrides
   static_templates:
     - 404.html
-  logo: assets/images/favicon.svg
-  favicon: assets/images/favicon.ico
+  #logo: assets/images/favicon.svg
+  #favicon: assets/images/favicon.ico
   font:
     text: Roboto
     code: Roboto Mono
