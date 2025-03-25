@@ -62,23 +62,19 @@ Pasos del análisis de datos:
 
 Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente proceso:
 
-- *Elección de conjunto de datos* - El conjunto de datos elegido es [Red Wine Quality](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) de la plataforma Kaggle.
+- *Elección de conjunto de datos* - El conjunto de datos elegido es [Student Depression](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset) de la plataforma Kaggle.
 - *Análisis de los datos* - Se revisan los datos elegidos cuyas variables elegidas para la visualización son ph y quality, de todas las que se muestran a continuación:
-  
-   Input variables (based on physicochemical tests):
-    - fixed acidity
-    - volatile acidity
-    - citric acid
-    - residual sugar
-    - chlorides
-    - free sulfur dioxide
-    - total sulfur dioxide
-    - density
-    - pH
-    - sulphates
-    - alcohol
-  Output variable (based on sensory data):
-    - quality (score between 0 and 10) 
+
+   Input variable
+    - ID: Unique identifier for each student
+    - Demographics: Age, Gender, City
+    - Academic Indicators: CGPA, Academic Pressure, Study Satisfaction
+    - Lifestyle & Wellbeing: Sleep Duration, Dietary Habits, Work Pressure, Job Satisfaction, Work/Study Hours
+    - Additional Factors: Profession, Degree, Financial Stress, Family History of Mental Illness, and whether the student has ever had suicidal thoughts 
+
+  Output variable
+    - Depression_Status: A binary indicator (0/1 or Yes/No) that denotes whether a student is experiencing depression
+
 - *Importación de datos* - La herramienta elegida para esta visualización es LookerStudio, donde se ha importado el conjunto de datos por csv
 - *Preparación de los datos* - En este caso, para esta visualización, no ha hecho falta realzar ninguna transformación en los datos.
 - *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
