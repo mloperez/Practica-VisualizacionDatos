@@ -81,8 +81,8 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
 - *Importación de datos* - La herramienta elegida para esta visualización es [Flourish](https://flourish.studio/), donde se ha importado el conjunto de datos por csv
 - *Preparación de los datos* - Para esta visualización se ha realizado las siguiente acciones:
   
-      - Se ha filtrado los datos para solo tener los del año 2024.
-      - Se ha identificado cada icono con el valor de 5000.
+  - Se ha filtrado los datos para solo tener los del año 2024.
+  - Se ha identificado cada icono con el valor de 5000.
   
 - *Visualización de los datos* - A continuación se muestra la representación Isotype del conjunto de datos:
 
