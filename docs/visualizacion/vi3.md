@@ -71,25 +71,18 @@ Pasos del análisis de datos:
 Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
 
 - *Elección de conjunto de datos* - El conjunto de datos elegido es [Censo de animales domesticos por distrito](https://datos.gob.es/en/catalogo/l01280796-censo-de-animales-domesticos-por-distrito) de Datos Gob España.
-- *Análisis de los datos* - Se revisan los datos elegidos cuyas variables elegidas para la visualización son ph y quality, de todas las que se muestran a continuación:
+- *Análisis de los datos* - Se revisan las variables del conjunto de datos:
   
-   Input variables (based on physicochemical tests):
-    - fixed acidity
-    - volatile acidity
-    - citric acid
-    - residual sugar
-    - chlorides
-    - free sulfur dioxide
-    - total sulfur dioxide
-    - density
-    - pH
-    - sulphates
-    - alcohol
-  Output variable (based on sensory data):
-    - quality (score between 0 and 10) 
+    - AÑO
+    - DISTRITO
+    - ESPECIE CANINA
+    - ESPECIE FELINA
+      
 - *Importación de datos* - La herramienta elegida para esta visualización es [Flourish](https://flourish.studio/), donde se ha importado el conjunto de datos por csv
-- *Preparación de los datos* - En este caso, para esta visualización, no ha hecho falta realzar ninguna transformación en los datos.
-- *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
+- *Preparación de los datos* - Para esta visualización se ha realizado las siguiente acciones:
+      - Se ha filtrado los datos para solo tener los del año 2024.
+      - Se ha identificado cada icono con el valor de 5000.
+- *Visualización de los datos* - A continuación se muestra la representación Isotype del conjunto de datos:
 
 [![Vista previa del informe](../../docs/assets/images/Visualizacion_dispersion.JPG)](https://public.flourish.studio/visualisation/22305448/) 
 
