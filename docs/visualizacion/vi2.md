@@ -7,8 +7,7 @@
 
 ---
 
-## Definición de la técnica de visualización utilizada
-#### Descripción: nombre, origen, funcionamiento, ejemplos de aplicación
+## 🔹 Definición de la técnica de visualización utilizada
 ##### Tipo de visualización
 Los diagramas de caja o Box Plot muestran la distribución de datos para una variable continua.
 
@@ -26,7 +25,7 @@ Los diagramas de caja o Box Plot muestran la distribución de datos para una var
 **Ejemplos de aplicación** - Los diagramas Box Plot son herramientas muy utiles ver la distribución de una sola variable y comparar grupos o categorías . Como por ejemplo:
 - *¿Cómo varían los salarios en diferentes departamentos?* Se podria analizar la distribución de los salarios en cada uno de los departamentos. Por ejemplo: La distribución de los salarios en el dept. RRHH y ña distribución de salarios en el dept. IT
 
-## Descripción de los datos utilizados
+## 🔹 Descripción de los datos utilizados
 #### Los datos utilizados ¿Son cuantitativos o cualitativos?
 
 Los gráficos de dispersión se utilizan para identificar patrones, tendencias y posibles correlaciones entre las variables que se analizan. Por tanto, los mejores datos para un diagrama de dispersión son aquellos donde tienes dos variables numéricas (cuantitativas) que deseas comparar o analizar en términos de su relación o correlación.
@@ -49,7 +48,7 @@ Para este tipo de visualización sí existe medida mínima y máxima de los dato
   
 - Medida máxima --> Aunque los diagramas de dispersión pueden manejar gran cantidad de datos, se debe realizar una buena limpieza de los datos y realiar un buen uso del los colores para que no sea dificil la interpretación.
   
-## Detalle de la visualización realizada
+## 🔹 Detalle de la visualización realizada
 #### Visualización 2 - Box Plot
 
 Pasos del análisis de datos:
