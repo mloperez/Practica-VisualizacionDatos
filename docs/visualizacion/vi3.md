@@ -70,7 +70,7 @@ Pasos del análisis de datos:
 
 Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
 
-- *Elección de conjunto de datos* - El conjunto de datos elegido es [Red Wine Quality](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) de la plataforma Kaggle.
+- *Elección de conjunto de datos* - El conjunto de datos elegido es [Red Wine Quality](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) de la plataforma [DataHub](https://datahub.io/).
 - *Análisis de los datos* - Se revisan los datos elegidos cuyas variables elegidas para la visualización son ph y quality, de todas las que se muestran a continuación:
   
    Input variables (based on physicochemical tests):
