@@ -7,7 +7,7 @@
 
 ---
 
-## 🔹 Definición de la técnica de visualización utilizada
+## ℹ️ Definición de la técnica de visualización utilizada 
 #### Descripción: nombre, origen, funcionamiento, ejemplos de aplicación
 ##### Tipo de visualización
 Isotype charts y Unit charts son visualizaciones que muestran cantidades o valores mediante iconos, unidades, o elementos gráficos representativos, en lugar de usar barras o líneas tradicionales.
@@ -27,7 +27,7 @@ A continuación se muestra un ejemplo de un diagrama Isotype, donde se puede ver
 
 PONER MAS COSAS, TENDENCIAS, FUNCIONAMIENTO, ORIGEN...
 
-## 🔹 Descripción de los datos utilizados
+## 📥 Descripción de los datos utilizados 
 #### Los datos utilizados ¿Son cuantitativos o cualitativos?
 
 Este tipo de visualización de datos utiliza datos cuantitativos, es ideal para mostrar pocos datos de una manera atractiva y fácil de entender.
@@ -57,7 +57,7 @@ Para este tipo de visualización sí existe medida mínima y máxima de los dato
   
 - Medida máxima --> Como se ha mencionado antes, este tipo de representación funciona bien con cantidades pequeñas para que sea facil de leer y entender
 
-## 🔹 Detalle de la visualización realizada
+## 📈 Detalle de la visualización realizada 
 #### Visualización 3 - Isotype & Unit charts
 
 Pasos del análisis de datos:
