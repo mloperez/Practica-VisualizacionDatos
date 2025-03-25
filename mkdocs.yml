@@ -75,14 +75,14 @@ plugins:
 
 # css
 extra_css:
-  - dosc/assets/stylesheets/extra.css
-  - docs/assets/stylesheets/pdf-custom.css
+  - dassets/stylesheets/extra.css
+  - assets/stylesheets/pdf-custom.css
 
 # javascript
 extra_javascript:
-  - docs/assets/javascripts/extra.js
+  - assets/javascripts/extra.js
   - https://viewer.diagrams.net/js/viewer-static.min.js
-  - docs/assets/javascripts/drawio-reload.js
+  - assets/javascripts/drawio-reload.js
 
 # Copyright message
 copyright: Copyright &copy; UOC Master Ciencia de Datos - 2025
