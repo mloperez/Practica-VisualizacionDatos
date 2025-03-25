@@ -91,7 +91,7 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
 - *Preparación de los datos* - En este caso, para esta visualización, no ha hecho falta realzar ninguna transformación en los datos.
 - *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
 
-[![Vista previa del informe](../../docs/assets/images/Visualizacion_dispersion.JPG)](https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab) 
+[![Vista previa del informe](../../docs/assets/images/Visualizacion_dispersion.JPG)](https://public.flourish.studio/visualisation/22305448/) 
 
 *Nota: Hacer click en la imagen*
 
