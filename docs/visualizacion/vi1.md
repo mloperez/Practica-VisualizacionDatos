@@ -24,6 +24,11 @@ Con este tipo de representación podemos analizar la relación que existen entre
 
 **Origen** - No se puede decir que un solo autor inventó este gráfico, pero sin duda hay que mencionar a Sir John Frederick W. Herschel (Reino Unido, 1792 - 1871) y Sir Francis Galton (Reino Unido, 1822 - 1911). Sus investigaciones en astronomía y genética fueron clave para que llegáramos al gráfico de dispersión tal como lo usamos hoy.
 
+**¿Cuándo usar diagramas de dispersión?**
+- Para identificar si existe una relación entre dos variables (tendencias, patrones...)
+- Para identificar si los datos se agrupan en patrones o los datos son dispersos.
+- Para identificar outliers, estos serán los que se encuentren mas alejados de un grupo de datos.
+
 **Ejemplos de aplicación** - Los diagramas de dispersión son herramientas muy utiles para visualizar la relación entre dos variables. Como por ejemplo:
 - *Relación entre el consumo de calorías y la actividad física:* En analisis de nutrición se puede usar un diagrama de dispersión para ver si existe alguna relación entre el consumo de calorías y el nivel de actividad física de una persona.
 - *Relación entre horas de sueño y notas académicas:* En analisis académicos se puede usar un diagrama de dispersión para ver si existe alguna relación entre las horas de sueño y las notas de un alumno.
