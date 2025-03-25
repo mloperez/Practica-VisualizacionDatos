@@ -66,8 +66,10 @@ Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente p
     - pH
     - sulphates
     - alcohol
+      
   Output variable (based on sensory data):
-    - quality (score between 0 and 10) 
+    - quality (score between 0 and 10)
+      
 - *Importación de datos* - La herramienta elegida para esta visualización es LookerStudio, donde se ha importado el conjunto de datos por csv
 - *Preparación de los datos* - En este caso, para esta visualización, no ha hecho falta realzar ninguna transformación en los datos.
 - *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
