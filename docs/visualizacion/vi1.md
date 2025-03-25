@@ -13,7 +13,9 @@ Diagrama de dispersión o scatterplot, es un tipo de visualización de datos en 
 
 PONER MAS COSAS, TENDENCIAS, FUNCIONAMIENTO, ORIGEN...
 
-![Diagrama de dispersión o Scatter plot](../../docs/assets/images/dispersionEjemplo.JPG)
+![Diagrama de dispersión o Scatter plot](../../docs/assets/images/DispersionEjemplo.JPG)
+
+![Diagrama de dispersión o Scatter plot](../../docs/assets/images/dispersionTendencias.JPG)
 
 
 ## Descripción de los datos utilizados
