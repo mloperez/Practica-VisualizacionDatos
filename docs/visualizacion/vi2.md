@@ -96,8 +96,21 @@ Cuestiones relevantes acerca de la visualización mostrada:
   
 - ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
 
-  El diagrama de dispersión muestra la relación que existe entre el ph de vinos rojos Portugueses y su calidad. Como se puede observar existe una relación positiva ya que a medida que los valores de una variable aumenta, los valores de la otra variable también tienden a aumentar.
+  Como hemos visto anteriormente este tipo de representación se utiliza para comparar diferentes categorias, en este caso los tipos de ataques. Esta representación puede contestar varias preguntas como: ¿Qué tipo de ataque es el que más perdidas ha causado en USA desde 2015 a 2024? ¿Cuál el que menos?
+
+  - SQL Injection Media: 59.03
+  - DDoS Media: 54.37
+  - Malware Media:49.88
+  - Man-in-the-Middle Media:49.58
+  - Phishing Media:48.84
+  - Ransomware Media: 46.59
+
+  El ataque que más perdidas causó en USA desde 2015 a 2024 fue el SQL Injection y el que menos Ransomware.
+  Esta representación si ayuda a comprara varios ataques segun diferentes variables. Tambien se podría haber comparado, por ejemplo:
   
+  - Número de usuarios afectados (x) con los diferentes ataques (y).
+  - Mecanismo de defensa utilizado (y) con el tiempo de resolucion del incidente (x).
+
 ---
 
 **[Volver a Página de Inicio](../index.md)**
