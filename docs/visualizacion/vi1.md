@@ -75,7 +75,9 @@ Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente p
 - *Preparación de los datos* - En este caso, para esta visualización, no ha hecho falta realzar ninguna transformación en los datos.
 - *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
 
-[!../../docs/assets/images/Visualizacion_dispersion.JPG](https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab)
+  
+[![Vista previa del informe](../../docs/assets/images/Visualizacion_dispersion.JPG)](https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab)
+
 
 
 *Nota: Hacer click en la imagen*
