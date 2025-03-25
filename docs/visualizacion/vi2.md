@@ -25,14 +25,6 @@ Los diagramas de caja o Box Plot muestran la distribución de datos para una var
   
 **Ejemplos de aplicación** - Los diagramas Box Plot son herramientas muy utiles ver la distribución de una sola variable y comparar grupos o categorías . Como por ejemplo:
 - *¿Cómo varían los salarios en diferentes departamentos?* Se podria analizar la distribución de los salarios en cada uno de los departamentos. Por ejemplo: La distribución de los salarios en el dept. RRHH y ña distribución de salarios en el dept. IT
-  
-##### Origen
-
-##### Propósito
-
-##### Ejemplos de aplicación
-
-PONER MAS COSAS, TENDENCIAS, FUNCIONAMIENTO, ORIGEN...
 
 ## Descripción de los datos utilizados
 #### Los datos utilizados ¿Son cuantitativos o cualitativos?
