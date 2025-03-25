@@ -88,11 +88,11 @@ Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente p
 Cuestiones relevantes acerca de la visualización mostrada:
 - ¿Qué tipos de datos se utiliza?
 
-  Como hemos visto anteriormente, los diagramas de dispersión son idelaes cuando se tienen datos numéricos y se desea saber si existe una relación directa entre ellos. En este caso las variables a tratar son ph y quality.
+  Las variables utilizadas en esta visualización han sido:
 
-  ph --> datos de tipo decimal.
+  - Financial Loss (in Millions $) --> datos de tipo decimal.
 
-  quality --> datos de tipo entero.
+  - Attack Type --> datos de tipo cualitativo (string).
   
 - ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
 
