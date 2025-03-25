@@ -26,6 +26,7 @@ Con este tipo de representación podemos analizar la relación que existen entre
 
 **Ejemplos de aplicación** - Los diagramas de dispersión son herramientas muy utiles para visualizar la relación entre dos variables. Como por ejemplo:
 - *Relación entre el consumo de calorías y la actividad física:* En analisis de nutrición se puede usar un diagrama de dispersión para ver si existe alguna relación entre el consumo de calorías y el nivel de actividad física de una persona.
+- *Relación entre horas de sueño y notas académicas:* En analisis académicos se puede usar un diagrama de dispersión para ver si existe alguna relación entre las horas de sueño y las notas de un alumno.
 
 ## Descripción de los datos utilizados
 #### Los datos utilizados ¿Son cuantitativos o cualitativos?
