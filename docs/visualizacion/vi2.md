@@ -41,7 +41,8 @@ Una limitación que hemos visto con anterioridad es la falta de relación entre 
 
 Otra limitación es el uso de este tipo de visualización con datos categoricos (pais, color, género...) ya que no se pueden representar este tipo de datos en un espacio bidimensional. Para la representación de datos categoricos es recoemndable el uso de otros tipos de visualizaciones como diagramas de barras, gráficos de cajas...
 
-#### ¿hay medida mínima y máxima del juego de datos para esta técnica?
+#### ¿hay medida mínima y máxima 
+del juego de datos para esta técnica?
 
 Para este tipo de visualización sí existe medida mínima y máxima de los datos:
 - Medida mínima --> Al menos se necesitarán 2 puntos, aunque no se podrá obtener mucha información sobre la relación entre las dos variables. Se podrá estimar una tendencia aunque estará lejos de un analisis con tendencia más real conseguida con más datos.
@@ -61,24 +62,25 @@ Pasos del análisis de datos:
 
 Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente proceso:
 
-- *Elección de conjunto de datos* - El conjunto de datos elegido es [Student Depression](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset) de la plataforma Kaggle.
-- *Análisis de los datos* - Se revisan los datos elegidos cuyas variables elegidas para la visualización son ph y quality, de todas las que se muestran a continuación:
+- *Elección de conjunto de datos* - El conjunto de datos elegido es [Global Cybersecurity Threats 2015-2024](https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024) de la plataforma Kaggle.
+- *Análisis de los datos* - Se revisan las variables del conjunto de datos elegido:
 
-   Input variable
-    - ID: Unique identifier for each student
-    - Demographics: Age, Gender, City
-    - Academic Indicators: CGPA, Academic Pressure, Study Satisfaction
-    - Lifestyle & Wellbeing: Sleep Duration, Dietary Habits, Work Pressure, Job Satisfaction, Work/Study Hours
-    - Additional Factors: Profession, Degree, Financial Stress, Family History of Mental Illness, and whether the student has ever had suicidal thoughts 
+    - Country
+    - Year
+    - Attack Type
+    - Target Industry
+    - Financial Loss (in Million $)
+    - Number of Affected Users
+    - Attack Source
+    - Security Vulnerability Type
+    - Defense Mechanism Used
+    - Incident Resolution Time (in Hours)
 
-  Output variable
-    - Depression_Status: A binary indicator (0/1 or Yes/No) that denotes whether a student is experiencing depression
-
-- *Importación de datos* - La herramienta elegida para esta visualización es LookerStudio, donde se ha importado el conjunto de datos por csv
-- *Preparación de los datos* - En este caso, para esta visualización, no ha hecho falta realzar ninguna transformación en los datos.
+- *Importación de datos* - La herramienta elegida para esta visualización es [Flourish](https://flourish.studio/), donde se ha importado el conjunto de datos por csv
+- *Preparación de los datos* - Para esta visualización, unicamente hemos filtrado los datos del Country USA, para comprar por cada tipo de ataque cuantos Millones supuso dicho ataque en USA
 - *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
 
-[![Vista previa del informe](../../docs/assets/images/Visualizacion_dispersion.JPG)](https://lookerstudio.google.com/reporting/1d9fc4ae-ae8b-410b-ac2d-b1471f3023ab) 
+[![Vista previa del informe](../../docs/assets/images/BoxPlot_cyber.JPG)](https://public.flourish.studio/visualisation/22306737/) 
 
 *Nota: Hacer click en la imagen*
 
