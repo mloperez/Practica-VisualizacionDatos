@@ -82,6 +82,7 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
 - *Preparación de los datos* - Para esta visualización se ha realizado las siguiente acciones:
   
   - Se han filtrado los datos para representar unicamente los datos de 6 distritos en el año 2024
+  - Se ha determinado que cada animal representa 5000 animales
   - Se han transformado los datos para que Flourish pueda interpretarlos correctamente. Con esto conseguiremos configurar dos iconos, uno para perros y otro para gatos.
  
     ```python
@@ -112,7 +113,7 @@ Cuestiones relevantes acerca de la visualización mostrada:
 
   Como hemos visto anteriormente, los diagramas Isotype son idelaes cuando se tienen datos numéricos para poder representarlos con símbolos que equivalen a una cantidad específica.y se desea saber si existe una relación directa entre ellos. En este caso las variables son:
 
-  - Especie canina --> datos de tipo decimal.
+  - Especie canina --> datos de tipo entero.
 
   - Especie felina --> datos de tipo entero.
   
