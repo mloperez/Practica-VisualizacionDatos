@@ -81,7 +81,7 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
 - *Importación de datos* - La herramienta elegida para esta visualización es [Flourish](https://flourish.studio/), donde se ha importado el conjunto de datos por csv
 - *Preparación de los datos* - Para esta visualización se ha realizado las siguiente acciones:
   
-  - Se han filtrado los datos para representar unicamente los datos de 5 distritos en el año 2024
+  - Se han filtrado los datos para representar unicamente los datos de 6 distritos en el año 2024
   - Se han transformado los datos para que Flourish pueda interpretarlos correctamente. Con esto conseguiremos configurar dos iconos, uno para perros y otro para gatos.
  
     ```python
