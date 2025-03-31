@@ -70,27 +70,19 @@ Pasos del análisis de datos:
 Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente proceso:
 
 - *Elección de conjunto de datos* - El conjunto de datos elegido es [Medical Cost Personal Datasets](https://www.kaggle.com/datasets/mirichoi0218/insurance) de la plataforma Kaggle.
-- *Análisis de los datos* - Se revisan los datos elegidos cuyas variables elegidas para la visualización son ph y quality, de todas las que se muestran a continuación:
+- *Análisis de los datos* - Se revisan los datos elegidos cuyas variables elegidas para la visualización son age y charges, de todas las que se muestran a continuación:
   
-   Input variables (based on physicochemical tests):
-    - fixed acidity
-    - volatile acidity
-    - citric acid
-    - residual sugar
-    - chlorides
-    - free sulfur dioxide
-    - total sulfur dioxide
-    - density
-    - pH
-    - sulphates
-    - alcohol
+    - age
+    - sex
+    - bmi
+    - children
+    - smoker
+    - region
+    - charges
       
-  Output variable (based on sensory data):
-    - quality (score between 0 and 10)
-      
-- *Importación de datos* - La herramienta elegida para esta visualización es LookerStudio, donde se ha importado el conjunto de datos por csv
+- *Importación de datos* - La herramienta elegida para esta visualización es Flourish, donde se ha importado el conjunto de datos por csv
 - *Preparación de los datos* - En este caso, para esta visualización, no ha hecho falta realzar ninguna transformación en los datos.
-- *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
+- *Visualización de los datos* - A continuación se muestra la representación de las variables age y charges del conjunto de datos escogido con el digrama de dispersión.
 
   
 [![Vista previa del informe](../../docs/assets/images/dispersionplot.JPG)](https://public.flourish.studio/visualisation/22330109/)
@@ -103,15 +95,13 @@ Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente p
 Cuestiones relevantes acerca de la visualización mostrada:
 - ¿Qué tipos de datos se utiliza?
 
-  Como hemos visto anteriormente, los diagramas de dispersión son idelaes cuando se tienen datos numéricos y se desea saber si existe una relación directa entre ellos. En este caso las variables a tratar son ph y quality.
-
-  ph --> datos de tipo decimal.
-
-  quality --> datos de tipo entero.
+  Como hemos visto anteriormente, los diagramas de dispersión son idelaes cuando se tienen datos numéricos y se desea saber si existe una relación directa entre ellos. En este caso las variables a tratar son edad y coste.
   
 - ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
 
-  El diagrama de dispersión muestra la relación que existe entre el ph de vinos rojos Portugueses y su calidad. Como se puede observar existe una relación positiva ya que a medida que los valores de una variable aumenta, los valores de la otra variable también tienden a aumentar.
+  El diagrama de dispersión muestra la relación que existe la edad y el gasto medico que existe en las personas en US. Como se puede puede comprobar el gasto medico va ligeramente aumentando según avanza la edad. Se puede observar que existe una relacion positiva ya que a medida que los valores de una variable aumenta, los valores de la otra variable también tienden a aumentar.
+
+  Este conjunto de datos puede dar respuesta a otras muchas preguntas más específicas filtrando por sexo o numero de hijos.
   
 ---
 
