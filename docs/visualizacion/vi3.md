@@ -83,6 +83,21 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
   
   - Se ha filtrado los datos para solo tener los del año 2024.
   - Se ha identificado cada icono con el valor de 5000.
+  - Se ha
+ 
+    !!! note
+      import pandas as pd
+      # Cargar datos
+      df = pd.read_csv(r"C:\Users\María\Downloads\censo_animales_2024.csv")
+      # Verificar las primeras filas y las columnas para asegurarse de que todo está correcto
+      print("Columnas del DataFrame:", df.columns)
+      print(df.head())
+      # Convertir a formato largo usando las columnas 'AÑO' y 'DISTRITO' como fijas
+      df_long = df.melt(id_vars=["AÑO", "DISTRITO"], var_name="Tipo", value_name="Cantidad")
+      # Guardar el nuevo archivo
+      df_long.to_csv("C:/Users/María/Downloads/datos_transformados.csv", index=False)
+      # Mostrar el DataFrame transformado
+      print(df_long)
   
 - *Visualización de los datos* - A continuación se muestra la representación Isotype del conjunto de datos:
 
