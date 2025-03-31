@@ -85,7 +85,7 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
   - Se ha identificado cada icono con el valor de 5000.
   - Se ha
  
-    !!! note
+    ```python
       import pandas as pd
       # Cargar datos
       df = pd.read_csv(r"C:\Users\María\Downloads\censo_animales_2024.csv")
