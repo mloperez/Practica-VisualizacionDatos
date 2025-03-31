@@ -99,6 +99,8 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
       # Mostramos el DataFrame transformado
       print(df_long)
 
+Demostración del cambio realizado en los datos:
+
   ![Datos transformados](../../docs/assets/images/datos_transformados.JPG)
   
 - *Visualización de los datos* - A continuación se muestra la representación Isotype del conjunto de datos:
