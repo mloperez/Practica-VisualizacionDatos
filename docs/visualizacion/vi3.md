@@ -87,19 +87,19 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
  
     ```python
       import pandas as pd
-      # Cargar datos
+      # Cargamos los datos
       df = pd.read_csv(r"C:\Users\María\Downloads\censo_animales_2024.csv")
-      # Verificar las primeras filas y las columnas para asegurarse de que todo está correcto
+      # Verificamos las primeras filas y las columnas
       print("Columnas del DataFrame:", df.columns)
       print(df.head())
-      # Convertir a formato largo usando las columnas 'AÑO' y 'DISTRITO' como fijas
+      # Convertimos a formato largo usando las columnas 'AÑO' y 'DISTRITO' como fijas
       df_long = df.melt(id_vars=["AÑO", "DISTRITO"], var_name="Tipo", value_name="Cantidad")
-      # Guardar el nuevo archivo
+      # Guardamos el nuevo archivo, este será el archivo que cargaremos en Flourish
       df_long.to_csv("C:/Users/María/Downloads/datos_transformados.csv", index=False)
-      # Mostrar el DataFrame transformado
+      # Mostramos el DataFrame transformado
       print(df_long)
 
-    
+  ![Isotype](../../docs/assets/images/datos_transformados.JPG)
   
 - *Visualización de los datos* - A continuación se muestra la representación Isotype del conjunto de datos:
 
