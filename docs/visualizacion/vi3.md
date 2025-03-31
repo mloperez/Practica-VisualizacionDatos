@@ -98,11 +98,11 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
       # Mostramos el DataFrame transformado
       print(df_long)
 
-  ![Isotype](../../docs/assets/images/datos_transformados.JPG)
+  ![Datos transformados](../../docs/assets/images/datos_transformados.JPG)
   
 - *Visualización de los datos* - A continuación se muestra la representación Isotype del conjunto de datos:
 
-[![Vista previa del informe](../../docs/assets/images/Visualizacion_dispersion.JPG)](https://public.flourish.studio/visualisation/22305448/) 
+[![Vista previa del informe](../../docs/assets/images/theyeatingthecats.JPG)](https://public.flourish.studio/visualisation/22305448/) 
 
 *Nota: Hacer click en la imagen*
 
