@@ -83,7 +83,7 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
   
   - Se ha filtrado los datos para solo tener los del año 2024.
   - Se ha identificado cada icono con el valor de 5000.
-  - Se ha
+  - Se han transformado los datos para que Flourish pueda interpretarlos correctamente. Con esto conseguiremos configurar dos iconos, uno para perros y otro para gatos.
  
     ```python
       import pandas as pd
@@ -98,6 +98,8 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
       df_long.to_csv("C:/Users/María/Downloads/datos_transformados.csv", index=False)
       # Mostrar el DataFrame transformado
       print(df_long)
+
+    
   
 - *Visualización de los datos* - A continuación se muestra la representación Isotype del conjunto de datos:
 
