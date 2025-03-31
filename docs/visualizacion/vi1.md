@@ -93,7 +93,7 @@ Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente p
 - *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
 
   
-[![Vista previa del informe](../../docs/assets/images/Visualizacion_dispersionplot.JPG)](https://public.flourish.studio/visualisation/22330109/)
+[![Vista previa del informe](../../docs/assets/images/dispersionplot.JPG)](https://public.flourish.studio/visualisation/22330109/)
 
 
 
