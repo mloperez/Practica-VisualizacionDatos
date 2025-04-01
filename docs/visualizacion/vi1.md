@@ -22,7 +22,7 @@ Con este tipo de representación podemos analizar la relación que existen entre
 - Exponencial
 - En forma de U
 
-![Diagrama de dispersión o Scatter plot](../../docs/assets/images/dispersionTendencias.JPG)
+![Diagrama de dispersión o Scatter plot](../assets/images/dispersionTendencias.JPG)
 
 **Origen** - No se puede decir que un solo autor inventó este gráfico, pero sin duda hay que mencionar a Sir John Frederick W. Herschel (Reino Unido, 1792 - 1871) y Sir Francis Galton (Reino Unido, 1822 - 1911). Sus investigaciones en astronomía y genética fueron clave para que llegáramos al gráfico de dispersión tal como lo usamos hoy.
 
@@ -87,7 +87,7 @@ Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente p
 - *Visualización de los datos* - A continuación se muestra la representación de las variables age y charges del conjunto de datos escogido con el digrama de dispersión.
 
   
-[![Vista previa del informe](../../docs/assets/images/dispersionplot.JPG)](https://public.flourish.studio/visualisation/22330109/)
+[![Vista previa del informe](../assets/images/dispersionplot.JPG)](https://public.flourish.studio/visualisation/22330109/)
 
 
 
