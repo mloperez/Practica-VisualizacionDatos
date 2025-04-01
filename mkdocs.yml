@@ -5,8 +5,22 @@ site_author: Maria López Pérez
 
 # Configuration
 
+# Configuración de la navegación
 nav:
-  - Home: index.md
+  - Home: index.md  # Página principal
+  - Referencias: referencias.md  # Otra página en docs/
+  - Visualización:
+      - Vi1: visualizacion/vi1.md
+      - Vi2: visualizacion/vi2.md
+      - Vi3: visualizacion/vi3.md
+
+# Configuración de los archivos estáticos (por ejemplo, imágenes)
+extra:
+  logo: assets/images/logo.png
+
+# Plugins (si estás usando mkdocs-awesome-pages-plugin o similares)
+plugins:
+  - awesome-pages  # Si usas el plugin de páginas
 
 # Theme
 theme:
