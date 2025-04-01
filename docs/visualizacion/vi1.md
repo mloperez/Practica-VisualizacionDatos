@@ -12,7 +12,7 @@ Diagrama de dispersión o scatterplot, es un tipo de visualización de datos en 
 
 ![Texto alternativo](../../docs/assets/images/DispersionEjemplo.JPG)
 
-![Texto alternativo](assets/images/DispersionEjemplo.JPG)
+![Texto alternativo](/assets/images/DispersionEjemplo.JPG)
 
 Con este tipo de representación podemos analizar la relación que existen entre las variables. Esta puede ser:
 - Positiva: Los valores aumentan juntos
