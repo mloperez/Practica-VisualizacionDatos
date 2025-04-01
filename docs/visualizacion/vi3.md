@@ -85,7 +85,7 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
   - Se ha determinado que cada animal representa 5000 animales
   - Se han transformado los datos para que Flourish pueda interpretarlos correctamente. Con esto conseguiremos configurar dos iconos, uno para perros y otro para gatos.
  
-``` python
+```python
 import pandas as pd
 # Cargamos los datos
 df = pd.read_csv(r"C:\Users\María\Downloads\censo_animales_2024.csv")
