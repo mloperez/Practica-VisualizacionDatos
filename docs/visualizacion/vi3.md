@@ -85,19 +85,19 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
   - Se ha determinado que cada animal representa 5000 animales
   - Se han transformado los datos para que Flourish pueda interpretarlos correctamente. Con esto conseguiremos configurar dos iconos, uno para perros y otro para gatos.
  
-      ```python
-      import pandas as pd
-      # Cargamos los datos
-      df = pd.read_csv(r"C:\Users\María\Downloads\censo_animales_2024.csv")
-      # Verificamos las primeras filas y las columnas
-      print("Columnas del DataFrame:", df.columns)
-      print(df.head())
-      # Convertimos a formato largo usando las columnas ‘AÑO’ y ‘DISTRITO’ como fijas
-      df_long = df.melt(id_vars=["AÑO", "DISTRITO"], var_name="Tipo", value_name="Cantidad")
-      # Guardamos el nuevo archivo, este será el archivo que cargaremos en Flourish
-      df_long.to_csv("C:/Users/María/Downloads/datos_transformados.csv", index=False)
-      # Mostramos el DataFrame transformado
-      print(df_long)
+``` python
+import pandas as pd
+# Cargamos los datos
+df = pd.read_csv(r"C:\Users\María\Downloads\censo_animales_2024.csv")
+# Verificamos las primeras filas y las columnas
+print("Columnas del DataFrame:", df.columns)
+print(df.head())
+# Convertimos a formato largo usando las columnas ‘AÑO’ y ‘DISTRITO’ como fijas
+df_long = df.melt(id_vars=["AÑO", "DISTRITO"], var_name="Tipo", value_name="Cantidad")
+# Guardamos el nuevo archivo, este será el archivo que cargaremos en Flourish
+df_long.to_csv("C:/Users/María/Downloads/datos_transformados.csv", index=False)
+# Mostramos el DataFrame transformado
+print(df_long)
 
 
 Demostración del cambio realizado en los datos:
