@@ -15,7 +15,7 @@ Isotype charts y Unit charts son visualizaciones que muestran cantidades o valor
 A continuación se muestra un ejemplo de un diagrama Isotype, donde se puede ver facilmente la relación de cantidad de personas con respecto a animales en Reino Unido y America.
 
 
-![Isotype](../../docs/assets/images/isotype.JPG)
+![Isotype](../assets/images/isotype.JPG)
 
 
 
@@ -101,13 +101,12 @@ Para crear el diagrama Isotype & Unit charts se ha seguido el siguiente proceso:
 
 Demostración del cambio realizado en los datos:
 
-  ![Datos transformados](../../docs/assets/images/datos_transformados.JPG)
+  ![Datos transformados](../assets/images/datos_transformados.JPG)
   
 - *Visualización de los datos* - A continuación se muestra la representación Isotype del conjunto de datos:
 
-[![Vista previa del informe](../../docs/assets/images/theyeatingthecats.JPG)](https://public.flourish.studio/visualisation/22305448/) 
+[![Vista previa del informe](../assets/images/theyeatingthecats.JPG)](https://public.flourish.studio/visualisation/22305448/) 
 
-[![Vista previa del informe](assets/images/theyeatingthecats.JPG)](https://public.flourish.studio/visualisation/22305448/)
 
 
 <a href="https://public.flourish.studio/visualisation/22305448/" target="_blank">
