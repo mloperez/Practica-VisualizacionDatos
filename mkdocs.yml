@@ -22,7 +22,7 @@ extra:
 site_url: https://mloperez.github.io/VisualizacionDatosPEC2
 
 # Rutas relativas para los archivos estáticos
-extra_dir: 'docs/assets'
+extra_dir: 'assets'
 
 # Plugins (si estás usando mkdocs-awesome-pages-plugin o similares)
 plugins:
