@@ -107,6 +107,9 @@ Demostración del cambio realizado en los datos:
 
 [![Vista previa del informe](../../docs/assets/images/theyeatingthecats.JPG)](https://public.flourish.studio/visualisation/22305448/) 
 
+[![Vista previa del informe](assets/images/theyeatingthecats.JPG)](https://public.flourish.studio/visualisation/22305448/)
+
+
 <a href="https://public.flourish.studio/visualisation/22305448/" target="_blank">
   <img src="assets/images/theyeatingthecats.JPG" alt="Vista previa del informe">
 </a>
