@@ -1,8 +1,6 @@
----
-nav:
-    - index.md
-    - Visualizacion 1: vi1.md
-    - Visualizacion 2: vi2.md
-    - Visualizacion 3: vi3.md
-    - Licencia: licencia.md
-    - Referencias: referencias.md
+# Este archivo .pages organiza las páginas en la carpeta visualizacion
+
+- Vi1: vi1.md
+- Vi2: vi2.md
+- Vi3: vi3.md
+
