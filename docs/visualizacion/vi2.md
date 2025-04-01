@@ -11,7 +11,7 @@
 ##### Tipo de visualización
 Los diagramas de caja o Box Plot muestran la distribución de datos para una variable continua.
 
-![Box Plot](../../docs/assets/images/BoxPlot.JPG)
+![Box Plot](../assets/images/BoxPlot.JPG)
 
 
 **Origen** - QUITAR- No se puede decir que un solo autor inventó este gráfico, pero sin duda hay que mencionar a Sir John Frederick W. Herschel (Reino Unido, 1792 - 1871) y Sir Francis Galton (Reino Unido, 1822 - 1911). Sus investigaciones en astronomía y genética fueron clave para que llegáramos al gráfico de dispersión tal como lo usamos hoy.
@@ -80,7 +80,7 @@ Para crear el diagrama de dispersión o scatterplot se ha seguido el siguiente p
 - *Preparación de los datos* - Para esta visualización, unicamente hemos filtrado los datos del Country USA, para comprar por cada tipo de ataque cuantos Millones supuso dicho ataque en USA
 - *Visualización de los datos* - A continuación se muestra la representación de las variables ph y quality del conjunto de datos escogido con el digrama de dispersión.
 
-[![Vista previa del informe](../../docs/assets/images/BoxPlot_cyber.JPG)](https://public.flourish.studio/visualisation/22306737/) 
+[![Vista previa del informe](../assets/images/BoxPlot_cyber.JPG)](https://public.flourish.studio/visualisation/22306737/) 
 
 *Nota: Hacer click en la imagen*
 
