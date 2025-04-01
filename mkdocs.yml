@@ -4,6 +4,10 @@ repo_url: https://github.com/mloperez/VisualizacionDatosPEC2
 site_author: Maria López Pérez
 
 # Configuration
+
+nav:
+  - Home: index.md
+
 # Theme
 theme:
   name: material
