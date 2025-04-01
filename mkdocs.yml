@@ -18,6 +18,12 @@ nav:
 extra:
   logo: assets/images/logo.png
 
+# Si estás usando GitHub Pages, puedes configurar la ruta base
+site_url: https://mloperez.github.io/VisualizacionDatosPEC2
+
+# Rutas relativas para los archivos estáticos
+extra_dir: 'docs/assets'
+
 # Plugins (si estás usando mkdocs-awesome-pages-plugin o similares)
 plugins:
   - awesome-pages  # Si usas el plugin de páginas
