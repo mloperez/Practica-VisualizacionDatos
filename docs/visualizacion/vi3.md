@@ -15,7 +15,7 @@ Isotype charts y Unit charts son visualizaciones que muestran cantidades o valor
 A continuación se muestra un ejemplo de un diagrama Isotype, donde se puede ver facilmente la relación de cantidad de personas con respecto a animales en Reino Unido y America.
 
 
-![Isotype](/assets/images/isotype.JPG)
+![Isotype](assets/images/isotype.JPG)
 
 
 
