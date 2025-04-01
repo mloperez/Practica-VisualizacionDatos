@@ -1,4 +1,8 @@
----
-nav:
-    - Inicio: index.md
-    - ...
+# Este archivo .pages organiza las páginas principales del sitio
+
+- Home: index.md
+- Referencias: referencias.md
+- Visualización:
+  - Vi1: visualizacion/vi1.md
+  - Vi2: visualizacion/vi2.md
+  - Vi3: visualizacion/vi3.md
