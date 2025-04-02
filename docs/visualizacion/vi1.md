@@ -52,7 +52,7 @@ En este caso se pretende visualizar la tendencia que existe en el coste del segu
 
 #### ¿Existe alguna limitación en los datos para esta técnica? 
 
-Limitaciones en los datos para el diagrama de dispersión:
+Algunas limitaciones en los datos para el diagrama de dispersión:
 - Falta de relación entre las variables a analizar, para este tipo de visualización es necesario tener o sospechar que existe una relación entre ambas variables.
 - Uso de este tipo de visualización con datos categoricos (pais, color, género...) ya que no se pueden representar este tipo de datos en un espacio bidimensional. Para la representación de datos categoricos es recoemndable el uso de otros tipos de visualizaciones como diagramas de barras, gráficos de cajas...
 
