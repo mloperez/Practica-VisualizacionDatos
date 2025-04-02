@@ -52,16 +52,19 @@ En este caso se pretende visualizar la tendencia que existe en el coste del segu
 
 #### ¿Existe alguna limitación en los datos para esta técnica? 
 
-Una limitación que hemos visto con anterioridad es la falta de relación entre las variables a analizar. Por tanto para este tipo de visualización es necesario tener o sospechar que existe una relación entre ambas variables.
+Limitaciones en los datos para el diagrama de dispersión:
+- Falta de relación entre las variables a analizar, para este tipo de visualización es necesario tener o sospechar que existe una relación entre ambas variables.
+- Uso de este tipo de visualización con datos categoricos (pais, color, género...) ya que no se pueden representar este tipo de datos en un espacio bidimensional. Para la representación de datos categoricos es recoemndable el uso de otros tipos de visualizaciones como diagramas de barras, gráficos de cajas...
 
-Otra limitación es el uso de este tipo de visualización con datos categoricos (pais, color, género...) ya que no se pueden representar este tipo de datos en un espacio bidimensional. Para la representación de datos categoricos es recoemndable el uso de otros tipos de visualizaciones como diagramas de barras, gráficos de cajas...
+En nuestro caso no vemos ninguna de las limitaciones mencionadas en nuestro conjunto de datos.
 
-#### ¿hay medida mínima y máxima del juego de datos para esta técnica?
+#### ¿Hay medida mínima y máxima del juego de datos para esta técnica?
 
 Para este tipo de visualización sí existe medida mínima y máxima de los datos:
 - Medida mínima --> Al menos se necesitarán 2 puntos, aunque no se podrá obtener mucha información sobre la relación entre las dos variables. Se podrá estimar una tendencia aunque estará lejos de un analisis con tendencia más real conseguida con más datos.
   
 - Medida máxima --> Aunque los diagramas de dispersión pueden manejar gran cantidad de datos, se debe realizar una buena limpieza de los datos y realiar un buen uso del los colores para que no sea dificil la interpretación.
+
 
 ## 📈 Detalle de la visualización realizada 
 #### Visualización 1 - Diagrama de dispersión o scatterplot
