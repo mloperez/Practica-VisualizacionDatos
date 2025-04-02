@@ -120,6 +120,6 @@ Cuestiones relevantes acerca de la visualización mostrada:
   
 ---
 
-↩️**[Volver a Página de Inicio](../index.md)** ⬅️**[Visualización 2](./visualizacion/vi2.md)** ➡️**[Visualización 1](./visualizacion/vi1.md)**
+↩️**[Volver a Página de Inicio](../index.md)** ⬅️**[Visualización 2](./vi2.md)** ➡️**[Visualización 1](./vi1.md)**
 
 
