@@ -1,12 +1,6 @@
 # Visualización 3 - Isotype & Unit charts
 
 
-- [1. Definición de la técnica de visualización utilizada](#Definición-de-la-técnica-de-visualizacion)
-- [2. Descripción de los datos utilizados](#Descripción-de-los-datos-utilizados)
-- [3. Detalle de la visualización realizada](#Detalle-de-la-visualización-realizada)
-
----
-
 ## ℹ️ Definición de la técnica de visualización utilizada 
 #### Descripción: nombre, origen, funcionamiento, ejemplos de aplicación
 ##### Tipo de visualización
