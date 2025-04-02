@@ -96,7 +96,7 @@ Cuestiones relevantes acerca de la visualización mostrada:
 
   Las variables utilizadas en esta visualización han sido:
 
-  - Financial Loss (in Millions $) --> datos de tipo decimal.
+  - Financial Loss (in Millions $) --> datos cuantitativo .
 
   - Attack Type --> datos de tipo cualitativo (string).
   
