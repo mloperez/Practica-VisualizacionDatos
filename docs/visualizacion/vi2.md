@@ -1,12 +1,6 @@
 # Visualización 2 - Box plot
 
 
-- [1. Definición de la técnica de visualización utilizada](#Definición-de-la-técnica-de-visualizacion-utilizada)
-- [2. Descripción de los datos utilizados](#Descripción-de-los-datos-utilizados)
-- [3. Explicación de la visualización](#Explicación-de-la-visualización)
-
----
-
 ## ℹ️ Definición de la técnica de visualización utilizada 
 ##### Tipo de visualización
 Los diagramas de caja o Box Plot muestran la distribución de datos para una variable cuantitativa.
