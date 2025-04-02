@@ -23,7 +23,8 @@ A continuación se muestran diferentes propositos del uso de este tipo de grafic
 - Facilita las comparaciones entre datos
 
 ##### Ejemplos de aplicación
-
+Los diagramas Isotype son herramientas muy utiles ver comparar variables de forma visual y mejorando el entendimieno del usuario Ejemplo de aplicación:
+- *¿Número de empleados en diferentes empresas?* Se podria comparar de manera sencilla el numero de empleados que hay en cada empresa. 
 
 ## 📥 Descripción de los datos utilizados 
 #### Los datos utilizados ¿Son cuantitativos o cualitativos?
@@ -44,7 +45,7 @@ Como se ha visto anteriormente los datos que representan tienen que ser fijos, p
 
 #### ¿Existe alguna limitación en los datos para esta técnica? 
 Este tipo de representación puede resultar muy atrativa y fácil de entender para cantidades pequeñas. Algunas de las limitaciones que encontramos con este tipo de representación:
-- Dificultad de entendimiento con grandes conjuntos de datos.
+- Dificultad de entendimiento con pequeños conjuntos de datos.
 - Dificultad para su uso en relaciones complejas de variables.
 - Dificultad de representación en datos que no sean multiplos a los valores establecidos.
 No es la mejor representación para conocer los valores exactos, pero si para poder comparar elementos facilmente y poder obtener información rápida. 
@@ -53,7 +54,7 @@ No es la mejor representación para conocer los valores exactos, pero si para po
 
 Para este tipo de visualización sí existe medida mínima y máxima de los datos:
 - Medida mínima --> Dependerá de lo que se quiera representar. Por ejemplo si cada icono representa 10 unidades se necesitará al menos 2-3 íconos para que el gráfico tenga sentido.
-- Medida máxima --> Como se ha mencionado antes, este tipo de representación funciona bien con cantidades pequeñas para que sea facil de leer y entender
+- Medida máxima --> Este tipo de representación funciona bien con cantidades grandes de datos, ya que cada icono se asocia a un valor especifico que pueda ayudar a entender el gráfico.
 
 ## 📈 Detalle de la visualización realizada 
 #### Visualización 3 - Isotype & Unit charts
