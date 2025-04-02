@@ -41,6 +41,3 @@ A continucación se muestran cada una de las visualizaciones realizadas para las
 - **[Visualización 2](./visualizacion/vi2.md)**
 - **[Visualización 3](./visualizacion/vi3.md)**
 
-## Referencias
-
-[Referencias](../referencias.md)**
