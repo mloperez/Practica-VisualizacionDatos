@@ -14,12 +14,19 @@ Los diagramas de caja o Box Plot muestran la distribución de datos para una var
 ![Box Plot](../assets/images/BoxPlot.JPG)
 
 El box plot se utiliza para mostrar estadísticas descriptivas de datos cuantitativos como:
-- Mediana (la línea dentro de la caja).
+- Mediana (la línea dentro de la caja) - El valor en el 50% de los datos.
 - Rango intercuartílico (IQR) (la caja entre el primer cuartil y el tercer cuartil).
+    - Q1 (primer cuartil): El valor en el 25% de los datos.
+    - Q3 (tercer cuartil): El valor en el 75% de los datos.
 - Valores atípicos (los puntos fuera de los bigotes).
 - Mínimo y máximo (los extremos de los bigotes).
 
-**Origen** - QUITAR- No se puede decir que un solo autor inventó este gráfico, pero sin duda hay que mencionar a Sir John Frederick W. Herschel (Reino Unido, 1792 - 1871) y Sir Francis Galton (Reino Unido, 1822 - 1911). Sus investigaciones en astronomía y genética fueron clave para que llegáramos al gráfico de dispersión tal como lo usamos hoy.
+**Origen** 
+
+ El conjunto de datos elegido es [Global Cybersecurity Threats 2015-2024](https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024) de la plataforma Kaggle.
+
+ En este conjunto de datos se encuentran más de 3000 valores tomados desde 2015 a 2024 de las amenazas de Ciberseguridad a nivel mundial. Proporciona información exhaustiva sobre ciberataques, tipos de malware, sectores objetivo y países afectados.
+
 
 **¿Cuándo usar diagramas Box Plot?**
 - Para comparar varias categorías o grupos.
@@ -58,9 +65,8 @@ En nuestro caso no vemos ninguna de las limitaciones mencionadas en nuestro conj
 #### ¿Hay medida mínima y máxima del juego de datos para esta técnica?
 
 Para este tipo de visualización sí existe medida mínima y máxima de los datos:
-- Medida mínima --> Al menos se necesitarán 2 puntos, aunque no se podrá obtener mucha información sobre la relación entre las dos variables. Se podrá estimar una tendencia aunque estará lejos de un analisis con tendencia más real conseguida con más datos.
-  
-- Medida máxima --> Aunque los diagramas de dispersión pueden manejar gran cantidad de datos, se debe realizar una buena limpieza de los datos y realiar un buen uso del los colores para que no sea dificil la interpretación.
+- Medida mínima -->  Para poder calcular los cuartiles y la mediana se necesitan al menos 5-10 valores. Con pocos valores nos se veran patrones ni una distribución de los datos concreta.
+- Medida máxima --> No existe medida máxima pero para la representación de conjuntos de datos muy grandes puede ser preferible utilizar otros gráficos como histogramas o gráficos de dispersión.
   
 ## 📈 Detalle de la visualización realizada 
 #### Visualización 2 - Box Plot
