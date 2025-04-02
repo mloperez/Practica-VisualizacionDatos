@@ -15,6 +15,12 @@ A continuación se muestra un ejemplo de un diagrama Isotype, donde se puede ver
 
 ##### Origen
 
+El conjunto de datos elegido es [Censo de animales domesticos por distrito](https://datos.gob.es/en/catalogo/l01280796-censo-de-animales-domesticos-por-distrito) de Datos Gob España de la plataforma Kaggle.
+
+Datos facilitados por el Ilustre Colegio Oficial de Veterinarios de Madrid, quien ostenta la explotación de la base de datos del Registro de Animales de Compañía de Madrid (RIAC) siendo su titularidad de la Comunidad Autónoma de Madrid.
+
+Los datos muestran el número total de gatos y el numero total de perros por distrito en Madrid desde 2014 hasta 2024.
+
 ##### Propósito
 
 ##### Ejemplos de aplicación
