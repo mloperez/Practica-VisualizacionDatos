@@ -27,26 +27,20 @@ El proyecto se organiza en tres grandes bloques: infraestructura, despliegue y d
 
 ```
 📦 repo-root
-├── terraform/        # Código para el despliegue de la infraestructura (ACR, VM, AKS)
-├── ansible/          # Playbooks y roles para configurar la VM y desplegar en AKS
-├── docs/             # Documentación del proyecto (MkDocs)
-├── site/             # Sitio estático generado de la documentación
-├── setup.sh          # Script para exportar variables tras despliegue
-├── mkdocs.yml        # Configuración de MkDocs
-├── Dockerfile.docs   # Dockerfile para generar la imagen de documentación
-├── requirements.txt  # Dependencias de Python
-├── README.md         # Descripción general del proyecto
-└── LICENSE           # Licencia del repositorio
+├── docs/               # Documentación del proyecto (MkDocs)
+    └────assets/
+         └──── images   # Imagenes del proyecto
+    └────visualizacion/
+         └──── vi1.md   # Visualizacion 1
+         └──── vi2.md   # Visualizacion 2
+         └──── vi3.md   # Visualizacion 3
+    └──── index.md      # Página principal
+├── mkdocs.yml          # Configuración de MkDocs
+├── requirements.txt    # Dependencias de Python
+└── README.md           # Descripción general del proyecto
 ```
-
-## ⚙️ Tecnologías utilizadas
-
-- **Terraform**: Creación de infraestructura en Azure (ACR, VM, AKS).
-- **Ansible**: Configuración automática de servicios y despliegue de aplicaciones.
-- **Podman**: Contenedorización de aplicaciones en la VM.
-- **Kubernetes (AKS)**: Orquestación de aplicaciones con almacenamiento persistente.
 
 ---
 
 📌 **Autor**: *[@mloperez](https://github.com/mloperez)*  
-📌 **Fecha**: *23-03-2025*
+📌 **Fecha**: *02-04-2025*
