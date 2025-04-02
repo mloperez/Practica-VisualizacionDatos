@@ -6,7 +6,7 @@
 
 👩‍💼 Alumno: **Maria López Pérez**
 
-📆 Fecha: **23/04/25**
+📆 Fecha: **03/04/25**
 
 Este informe documenta la entrega de la PEC 2 de la asignatura Visualización de Datos del Máster de Ciencia de Datos de la UOC. Para la generación del informe, se ha utilizado MkDocs, una librería de Python para la creación de documentación técnica (MkDocs, s.f.).
 
