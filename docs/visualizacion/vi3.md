@@ -27,8 +27,9 @@ PONER MAS COSAS, TENDENCIAS, FUNCIONAMIENTO, ORIGEN...
 Este tipo de visualización de datos utiliza datos cuantitativos, es ideal para mostrar pocos datos de una manera atractiva y fácil de entender.
 
 - Isotype: Este tipo de repreentación usa íconos para representar cantidades y pueden usar íconos con diferentes representaciones (personas, casas, autos, etc.).
-
 - Unit charts: Este tipo de representación es similar a la anterior pero utiliza bloques, círculos u otros íconos para representar unidades fijas de valor.
+
+En nuestro caso utilizaremos el gráfico Isotype, donde representamos dos variables cuantitativa discretas: número de gatos y número de perros.
 
 #### ¿Qué estructura tienen que tener los datos para esta técnica?
 
@@ -48,7 +49,6 @@ No es la mejor representación para conocer los valores exactos, pero si para po
 
 Para este tipo de visualización sí existe medida mínima y máxima de los datos:
 - Medida mínima --> Dependerá de lo que se quiera representar. Por ejemplo si cada icono representa 10 unidades se necesitará al menos 2-3 íconos para que el gráfico tenga sentido.
-  
 - Medida máxima --> Como se ha mencionado antes, este tipo de representación funciona bien con cantidades pequeñas para que sea facil de leer y entender
 
 ## 📈 Detalle de la visualización realizada 
@@ -111,9 +111,8 @@ Cuestiones relevantes acerca de la visualización mostrada:
 
   Como hemos visto anteriormente, los diagramas Isotype son idelaes cuando se tienen datos numéricos para poder representarlos con símbolos que equivalen a una cantidad específica.y se desea saber si existe una relación directa entre ellos. En este caso las variables son:
 
-  - Especie canina --> datos de tipo entero.
-
-  - Especie felina --> datos de tipo entero.
+  - Especie canina --> variable cuantitativa discreta.
+  - Especie felina --> variable cuantitativa discreta.
   
 - ¿Qué se pretende comunicar o descubrir con la visualización? ¿Ayuda la técnica a lograrlo?
 
