@@ -28,7 +28,8 @@ El box plot se utiliza para mostrar estadísticas descriptivas de datos cuantita
 - Para identificar si los datos se agrupan en patrones o los datos son dispersos.
 - Para identificar outliers, estos serán los que se encuentren mas alejados de la mediana y cuartiles.
   
-**Ejemplos de aplicación** - Los diagramas Box Plot son herramientas muy utiles ver la distribución de una sola variable y comparar grupos o categorías . Como por ejemplo:
+**Ejemplos de aplicación** 
+Los diagramas Box Plot son herramientas muy utiles ver la distribución de una sola variable y comparar grupos o categorías . Como por ejemplo:
 - *¿Cómo varían los salarios en diferentes departamentos?* Se podria analizar la distribución de los salarios en cada uno de los departamentos. Por ejemplo: La distribución de los salarios en el dept. RRHH y ña distribución de salarios en el dept. IT
 
 ## 📥 Descripción de los datos utilizados 
