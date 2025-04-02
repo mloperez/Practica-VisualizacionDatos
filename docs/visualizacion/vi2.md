@@ -9,16 +9,21 @@
 
 ## ℹ️ Definición de la técnica de visualización utilizada 
 ##### Tipo de visualización
-Los diagramas de caja o Box Plot muestran la distribución de datos para una variable continua.
+Los diagramas de caja o Box Plot muestran la distribución de datos para una variable cuantitativa.
 
 ![Box Plot](../assets/images/BoxPlot.JPG)
 
+El box plot se utiliza para mostrar estadísticas descriptivas de datos cuantitativos como:
+- Mediana (la línea dentro de la caja).
+- Rango intercuartílico (IQR) (la caja entre el primer cuartil y el tercer cuartil).
+- Valores atípicos (los puntos fuera de los bigotes).
+- Mínimo y máximo (los extremos de los bigotes).
 
 **Origen** - QUITAR- No se puede decir que un solo autor inventó este gráfico, pero sin duda hay que mencionar a Sir John Frederick W. Herschel (Reino Unido, 1792 - 1871) y Sir Francis Galton (Reino Unido, 1822 - 1911). Sus investigaciones en astronomía y genética fueron clave para que llegáramos al gráfico de dispersión tal como lo usamos hoy.
 
 **¿Cuándo usar diagramas Box Plot?**
 - Para comparar varias categorías o grupos.
-- Para ver la distribución deuna sola variable.
+- Para ver la distribución de una sola variable.
 - Para identificar si los datos se agrupan en patrones o los datos son dispersos.
 - Para identificar outliers, estos serán los que se encuentren mas alejados de la mediana y cuartiles.
   
@@ -35,14 +40,13 @@ Los gráficos de dispersión se utilizan para identificar patrones, tendencias y
 Como se ha comentado anteriormente, en los diagramas de dispoersión se representan datos de dos variables. Una variable se representa en el eje horozontal X y la otra variable se representa en el eje vertical Y. Por tanto los datos deben ser cuantitativos y tener una relación de contexto, es decir, por ejemplo si se quiere representar que relación puede existir entre las variables edad y altura es necesario que los datos de ambas variables sean tomados de las mismas personas.
 
 #### ¿Existe alguna limitación en los datos para esta técnica? 
-Existesn varias limitantes en los datos, por su tipologia o relación entre ellos, a la hora de representar con diagramas de dispoersión. 
 
-Una limitación que hemos visto con anterioridad es la falta de relación entre las variables a analizar. Por tanto para este tipo de visualización es necesario tener o sospechar que existe una relación entre ambas variables.
 
-Otra limitación es el uso de este tipo de visualización con datos categoricos (pais, color, género...) ya que no se pueden representar este tipo de datos en un espacio bidimensional. Para la representación de datos categoricos es recoemndable el uso de otros tipos de visualizaciones como diagramas de barras, gráficos de cajas...
+- Uso de este tipo de visualización con datos categoricos (pais, color, género...) ya que no se pueden representar este tipo de datos en un espacio bidimensional. Para la representación de datos categoricos es recomendable el uso de otros tipos de visualizaciones como diagramas de barras, gráficos de cajas...
+- Con la existencia de muchos outliers, el gráfico puede no ser representativo de la mayoría de los datos y la interpretación de los resultados puede ser errónea.
+- Uso de gran volúmenes de datos, el box plot es eficaz para conjuntos de datos pequeños.
 
-#### ¿hay medida mínima y máxima 
-del juego de datos para esta técnica?
+#### ¿Hay medida mínima y máxima del juego de datos para esta técnica?
 
 Para este tipo de visualización sí existe medida mínima y máxima de los datos:
 - Medida mínima --> Al menos se necesitarán 2 puntos, aunque no se podrá obtener mucha información sobre la relación entre las dos variables. Se podrá estimar una tendencia aunque estará lejos de un analisis con tendencia más real conseguida con más datos.
