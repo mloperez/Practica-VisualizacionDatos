@@ -41,7 +41,7 @@ Como se ha comentado anteriormente, en los diagramas de dispoersión se represen
 
 #### ¿Existe alguna limitación en los datos para esta técnica? 
 
-Algunas limitaciones en los datos para el diagrama de dispersión:
+Algunas limitaciones en los datos para el diagrama Box plot:
 - Uso de este tipo de visualización con datos categoricos (pais, color, género...) ya que no se pueden representar este tipo de datos en un espacio bidimensional. Para la representación de datos categoricos es recomendable el uso de otros tipos de visualizaciones como diagramas de barras, gráficos de cajas...
 - Con la existencia de muchos outliers, el gráfico puede no ser representativo de la mayoría de los datos y la interpretación de los resultados puede ser errónea.
 - Uso de gran volúmenes de datos, el box plot es eficaz para conjuntos de datos pequeños.
