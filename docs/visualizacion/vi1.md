@@ -40,12 +40,17 @@ Con este tipo de representación podemos analizar la relación que existen entre
 
 Los gráficos de dispersión se utilizan para identificar patrones, tendencias y posibles correlaciones entre las variables que se analizan. Por tanto, los mejores datos para un diagrama de dispersión son aquellos donde tienes dos variables numéricas (cuantitativas) que deseas comparar o analizar en términos de su relación o correlación.
 
+En nuestro caso hemos utilizado dos variables cuantitativas:
+- age --> variable cuantitativa discreta ya que esta variable representa la edad de las diferentes personas y dichos valores corresponden a números enteros.
+- charges --> variable cuantitativa continua ya que los valores de esta variable no son enteros.
+
 #### ¿Qué estructura tienen que tener los datos para esta técnica?
 
-Como se ha comentado anteriormente, en los diagramas de dispoersión se representan datos de dos variables. Una variable se representa en el eje horozontal X y la otra variable se representa en el eje vertical Y. Por tanto los datos deben ser cuantitativos y tener una relación de contexto, es decir, por ejemplo si se quiere representar que relación puede existir entre las variables edad y altura es necesario que los datos de ambas variables sean tomados de las mismas personas.
+Como se ha comentado anteriormente, en los diagramas de dispersión se representan datos de dos variables. Una variable se representa en el eje horozontal X y la otra variable se representa en el eje vertical Y. Por tanto los datos deben ser cuantitativos y tener una relación de contexto.
+
+En este caso se pretende visualizar la tendencia que existe en el coste del seguro médico conforme las personas van haciendose mayores. La comparación de las variables es absoluta y no relativa, ya que no se pretende encontrar el valor más grande sino buscar una diferencia entre los valores.
 
 #### ¿Existe alguna limitación en los datos para esta técnica? 
-Existesn varias limitantes en los datos, por su tipologia o relación entre ellos, a la hora de representar con diagramas de dispoersión. 
 
 Una limitación que hemos visto con anterioridad es la falta de relación entre las variables a analizar. Por tanto para este tipo de visualización es necesario tener o sospechar que existe una relación entre ambas variables.
 
