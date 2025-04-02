@@ -2,16 +2,11 @@
 
 
 ## ℹ️ Definición de la técnica de visualización utilizada 
-#### Descripción: nombre, origen, funcionamiento, ejemplos de aplicación
-##### Tipo de visualización
 Isotype charts y Unit charts son visualizaciones que muestran cantidades o valores mediante iconos, unidades, o elementos gráficos representativos, en lugar de usar barras o líneas tradicionales.
 
 A continuación se muestra un ejemplo de un diagrama Isotype, donde se puede ver facilmente la relación de cantidad de personas con respecto a animales en Reino Unido y America.
 
-
 ![Isotype](../assets/images/isotype.JPG)
-
-
 
 ##### Origen
 
@@ -22,10 +17,13 @@ Datos facilitados por el Ilustre Colegio Oficial de Veterinarios de Madrid, quie
 Los datos muestran el número total de gatos y el numero total de perros por distrito en Madrid desde 2014 hasta 2024.
 
 ##### Propósito
+A continuación se muestran diferentes propositos del uso de este tipo de graficos:
+- Fácil de interpretar y comprender
+- Admite gran cantidad de datos
+- Facilita las comparaciones entre datos
 
 ##### Ejemplos de aplicación
 
-PONER MAS COSAS, TENDENCIAS, FUNCIONAMIENTO, ORIGEN...
 
 ## 📥 Descripción de los datos utilizados 
 #### Los datos utilizados ¿Son cuantitativos o cualitativos?
