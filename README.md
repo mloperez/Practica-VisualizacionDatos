@@ -40,6 +40,14 @@ El proyecto se organiza en tres grandes bloques: infraestructura, despliegue y d
 └── README.md           # Descripción general del proyecto
 ```
 
+
+## ⚙️ Tecnologías utilizadas
+
+- **Jupyter Notebook**: Para transformar los datos en Python.
+- **Clipchamp**: Creación del video.
+- **Kaggle**: Plataforma de donde se obtiene el conjunto de datos fuente.
+- **Flourish**: Plataforma para la vsualización de los datos.
+
 ---
 
 📌 **Autor**: *[@mloperez](https://github.com/mloperez)*  
