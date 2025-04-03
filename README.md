@@ -46,7 +46,7 @@ El proyecto se organiza en tres grandes bloques: infraestructura, despliegue y d
 - **Jupyter Notebook**: Para transformar los datos en Python.
 - **Clipchamp**: Creación del video.
 - **Kaggle**: Plataforma de donde se obtiene el conjunto de datos fuente.
-- **Flourish**: Plataforma para la vsualización de los datos.
+- **Flourish**: Plataforma para la creación de diferentes visualizaciones de datos.
 
 ---
 
