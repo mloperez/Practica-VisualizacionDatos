@@ -12,16 +12,16 @@ En primer lugar debemos ingestar los diferentes conjuntos de datos en PowerBI De
 Para ello en Inicio > Obtener Datos > Carpeta. Seleccionamos las carpetas donde se encuentran nuestros conjuntos de datos.
 
 📁Carpeta Gastos
-“Proyecto Presupuesto 2022 V50.csv”
-“Gastos_Proyecto_2023.csv”
-“V50_Gastos_Proyecto_2024.csv”
-“V50_Gastos_Proyecto_2025.csv”
+- “Proyecto Presupuesto 2022 V50.csv”
+- “Gastos_Proyecto_2023.csv”
+- “V50_Gastos_Proyecto_2024.csv”
+- “V50_Gastos_Proyecto_2025.csv”
 
 📁Carpeta Ingresos
-“Ingresos_Proyecto_2022.csv”
-“Ingresos_Proyecto_2023.csv”
-“V50_Ingresos_Proyecto_2024.csv”
-“V40_Ingresos_Presupuesto_2025.csv”
+- “Ingresos_Proyecto_2022.csv”
+- “Ingresos_Proyecto_2023.csv”
+- “V50_Ingresos_Proyecto_2024.csv”
+- “V40_Ingresos_Presupuesto_2025.csv”
 
 
 Y seleccionamos --> Combinar y Transformar Datos
