@@ -19,7 +19,7 @@ extra:
   logo: assets/images/logo.png
 
 # Si estás usando GitHub Pages, puedes configurar la ruta base
-site_url: https://mloperez.github.io/VisualizacionDatosPEC2
+site_url: https://mloperez.github.io/Practica-VisualizacionDatos
 
 # Rutas relativas para los archivos estáticos
 extra_dir: 'assets'
