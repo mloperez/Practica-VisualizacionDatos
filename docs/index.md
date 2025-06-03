@@ -35,11 +35,15 @@ Requisitos adicionales: Además de la visualización, el estudiante deberá pres
 El video deberá tener una duración de entre 4 y 6 minutos. Respetar este rango de tiempo es esencial, ya que se evaluará tanto la capacidad de síntesis como la calidad del guión.
 
 
-## Visualizaciones
+## Flujo de trabajo
 
-A continucación se muestran cada una de las visualizaciones realizadas para las tres técnicas mencionadas anteriormente:
+A continucación se muestran el flujo de trabajo realizado para llevar a cabo la práctica:
 
-- **[Visualización 1](./visualizacion/vi1.md)**
-- **[Visualización 2](./visualizacion/vi2.md)**
-- **[Visualización 3](./visualizacion/vi3.md)**
+- **[Ingesta de datos](./visualizacion/vi1.md)**
+- **[Transformación de datos](./visualizacion/vi2.md)**
+- **[Carga de datos en el modelo](./visualizacion/vi3.md)**
+- **[Modelado de datos](./visualizacion/vi3.md)**
+- **[Análisis y Visualización](./visualizacion/vi3.md)**
+
+
 
