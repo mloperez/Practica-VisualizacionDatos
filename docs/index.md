@@ -2,35 +2,37 @@
 
 📘 Asignatura: **Visualización de Datos**
 
-🔖 Actividad: **PEC 2**
+🔖 Actividad: **Práctica**
 
 👩‍💼 Alumno: **Maria López Pérez**
 
-📆 Fecha: **03/04/25**
+📆 Fecha: **10/06/25**
 
-Este informe documenta la entrega de la PEC 2 de la asignatura Visualización de Datos del Máster de Ciencia de Datos de la UOC. Para la generación del informe, se ha utilizado MkDocs, una librería de Python para la creación de documentación técnica (MkDocs, s.f.).
-
-## Introducción
-
-Este repositorio contiene la solución de la **PEC 2**, en la cual se han realizado tres visualizaciones de datos con tres técnicas diferentes. Se incluye todos los pasos y herramientas utilizadas para poder llevar a cabo cada uno de los objetivos.
+Este informe documenta la entrega de la Práctica de la asignatura Visualización de Datos del Máster de Ciencia de Datos de la UOC. 
 
 ## Objetivos
 
-- Identificar y analizar qué conjuntos de datos son los más apropiados para cada técnica de visualizacion.
-- Crear una página donde se presenten las 3 visualizaciones.
-- Generar un video de 7-8 minutos en total donde se detallen los siguientes puntos de cada visualización:
-  - Presentación.
-  - Indicar donde están publicadas las visualizaciones.  
-  - Definir cada técnica de visualización (nombre, origen, descripción/funcionamiento, ejemplos de aplicación...)
-  - Describir el tipo de datos que se pueden representar con cada técnica ¿(datos cuantitativos, cualitativos? ¿Qué estructura tienen  que tener para cada técnica?).
-  - Explicar las limitaciones en cuanto a datos (¿hay medida mínima y máxima del juego de datos para cada técnica?)
-  - Explicar brevemente cada visualización realizada.
-  - Explicar que se pretende comunicar o descubrir con la visualización y cómo la técnica y los datos seleccionados ayudan a lograr ese objetivo.
+Elección adecuada de herramientas y técnicas: Identificar y utilizar herramientas específicas para la creación de visualizaciones que se alineen con las características del conjunto de datos, el tipo de análisis realizado y los objetivos del proyecto.
+Creación de un proyecto profesional: Diseñar una visualización que combine estructura, diseño y contenido de calidad profesional, orientada a públicos especializados y no especializados.
 
-Las tres técnicas de visualización son:
-  - TÉCNICA GRUPO I (Básicas y populares): Diagrama de dispersión o scatterplot
-  - TÉCNICA GRUPO II (Habituales y específicas): Box plot
-  - TÉCNICA GRUPO III (Menos habituales o específicas): Isotype & Unit charts
+Respuestas a preguntas clave: Formular y responder razonadamente. a preguntas clave relacionadas con los datos, utilizando la visualización como un medio para facilitar la exploración y la comprensión.
+
+Diseño interactivo y comunicativo: Incorporar elementos interactivos que mejoren la experiencia del usuario y favorezcan la comunicación efectiva de los resultados.
+Requisitos adicionales: Además de la visualización, el estudiante deberá presentar un video explicativo que aborde los siguientes aspectos, distribuidos en los porcentajes indicados:
+
+[20%] Proceso de creación: Explicar las etapas del desarrollo, las decisiones de diseño tomadas y los fundamentos detrás de dichas decisiones.
+
+[20%] Presentación en vivo: Mostrar las características de la visualización mientras se navega por ella, destacando aspectos clave del diseño y la funcionalidad.
+
+[15%] Conjunto de datos: Describir brevemente las características más relevantes del conjunto de datos utilizado, su origen y cualquier proceso de preparación realizado.
+
+[20%] Preguntas clave: Detallar las preguntas que la visualización responde y cómo estas se abordan a través del diseño interactivo y analítico.
+
+[15%] Interactividad: Demostrar los elementos interactivos disponibles, explicando cómo contribuyen a la experiencia del usuario. Incluir reflexiones sobre aspectos de accesibilidad.
+
+[10%] Reflexión final: Responder a preguntas como: ¿Qué he aprendido de los datos y de las técnicas empleadas? ¿Qué limitaciones he encontrado? ¿Qué me habría gustado hacer y no pude?
+
+El video deberá tener una duración de entre 4 y 6 minutos. Respetar este rango de tiempo es esencial, ya que se evaluará tanto la capacidad de síntesis como la calidad del guión.
 
 
 ## Visualizaciones
