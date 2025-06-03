@@ -8,7 +8,7 @@
 
 📆 Fecha: **10/06/25**
 
-Este informe documenta la entrega de la Práctica de la asignatura Visualización de Datos del Máster de Ciencia de Datos de la UOC.  
+Este informe documenta la entrega de la Práctica de la asignatura Visualización de Datos del Máster de Ciencia de Datos de la UOC.   
 
 ## Objetivos
 
