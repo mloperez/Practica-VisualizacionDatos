@@ -1,0 +1,83 @@
+# Modelado de datos (Relaciones y DAX)
+Creación de tablas
+
+Vamos a generar diferentes tablas para poder luego visualizar los datos obtenidos.
+
+La nueva tabla que agrupe los datos por Centro y Año y así poder obtener:
+
+- La suma total de ingresos por centro y año.
+- La suma total de gastos por centro y año.
+
+Vamos a crear Vista de tabla > Nueva tabla
+
+En DAX:
+
+```
+BalanceUnificado =
+UNION(
+    SELECTCOLUMNS('ingresos (2)', "Centro", 'ingresos (2)'[Centro], "Año", 'ingresos (2)'[Año], "Importe", 'ingresos (2)'[Ingresos_2022_2023_2024_2025], "Tipo", "Ingreso"),
+    SELECTCOLUMNS('Gastos (2)', "Centro", 'Gastos (2)'[Centro], "Año", 'Gastos (2)'[Año], "Importe", 'Gastos (2)'[Gastos_2022_2023_2024_2025], "Tipo", "Gasto")
+)
+```
+
+
+De la tabla anterior podemos obtener un resumen del balance:
+- El balance (ingresos - gastos).
+```
+ResumenBalance =
+SUMMARIZE(
+    BalanceUnificado,
+    BalanceUnificado[Centro],
+    BalanceUnificado[Año],
+    "Total Ingresos", CALCULATE(SUM(BalanceUnificado[Importe]), BalanceUnificado[Tipo] = "Ingreso"),
+    "Total Gastos", CALCULATE(SUM(BalanceUnificado[Importe]), BalanceUnificado[Tipo] = "Gasto"),
+    "Balance",
+        CALCULATE(SUM(BalanceUnificado[Importe]), BalanceUnificado[Tipo] = "Ingreso") -
+        CALCULATE(SUM(BalanceUnificado[Importe]), BalanceUnificado[Tipo] = "Gasto")
+```
+
+
+
+
+
+
+—-------------------------------------------
+Generación de nuevas columnas
+
+Columna Ingresos/Gastos
+
+Para poder saber de forma más sencilla si la tabla o los valores de tabla corresponden a ingresos o gastos vamos a crear una columna nueva, así conseguiremos tener el control de este parámetro.
+
+Para ello vamos a Vista de tabla > Herramientas de columna > Nueva columna. A continuación podremos escribir una expresión DAX para crear la nueva columna.
+
+```
+Ingreso/Gastos =
+SWITCH(
+    TRUE(),
+    CONTAINSSTRING([Source.Name], "Gastos"), "Gastos",
+    CONTAINSSTRING([Source.Name], "Ingresos"), "Ingresos",
+    "Otro"
+)
+```
+
+Con la anterior expresión DAX hemos creado una nueva columna ”Ingresos/Gastos” cuyo valor puede ser Gastos o Ingresos según el nombre que tenga el archivo.
+
+Columna Año
+
+Ahora vamos a proceder a realizar el mismo proceso para la creación de la nueva columna Año.
+
+```
+Año =
+SWITCH(
+    TRUE(),
+    CONTAINSSTRING([Source.Name], "2022"), "2022",
+    CONTAINSSTRING([Source.Name], "2023"), "2023",
+    CONTAINSSTRING([Source.Name], "2024"), "2024",
+   CONTAINSSTRING([Source.Name], "2025"), "2025",
+    "Otro"
+)
+```
+
+
+Ahora en nuestra tabla se muestran dos columnas nuevas “Ingresos/Gastos” y “Año”
+
