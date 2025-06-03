@@ -17,24 +17,23 @@ Una vez ingestados veremos que se nos han creado unas tablas con las diferentes 
 
 Columnas creadas:
 
-Source.Name
-Centro
-Descripción Centro
-Sección
-Descripción Sección
-Programa
-Descripción Programa
-Capítulo
-Descripción Capítulo
-Económico
-Relación de Partidas
-Proyecto Presupuesto 2022 V50
+- Source.Name
+- Centro
+- Descripción Centro
+- Sección
+- Descripción Sección
+- Programa
+- Descripción Programa
+- Capítulo
+- Descripción Capítulo
+- Económico
+- Relación de Partidas
+- Proyecto Presupuesto 2022 V50
 
-Al ver las columnas creadas, vemos que hay una de ellas que en los datos originales no tiene el mismo nombre en todos los conjuntos de datos “Proyecto Presupuesto 2022 V50”. Por tanto comprobamos que en este columna para los csv no usados de ejemplo “Gastos_Proyecto_2023.csv”, “V50_Gastos_Proyecto_2024.csv” y “V50_Gastos_Proyecto_2025.csv” todos los valores son null.
+Vemos que hay una de ellas que en los datos originales no tiene el mismo nombre en todos los conjuntos de datos “Proyecto Presupuesto 2022 V50”. Por tanto comprobamos que en este columna para los csv no usados de ejemplo “Gastos_Proyecto_2023.csv”, “V50_Gastos_Proyecto_2024.csv” y “V50_Gastos_Proyecto_2025.csv” todos los valores son null.
 
 
-
-Transformación 1 - Tabla Gastos
+📉#Transformación 1 - Tabla Gastos
 
 
 Objetivo: Obtener los gastos de todos los año en columnas diferentes
@@ -86,33 +85,29 @@ Paso 6: Columna de tabla expandida1 → (NUEVO PASO CREADO) Este nuevo paso se e
 
 Por tanto ahora vamos tenemos estas columnas:
 
-Source.Name
-Centro
-Descripción Centro
-Sección
-Descripción Sección
-Programa
-Descripción Programa
-Capítulo
-Descripción Capítulo
-Económico
-Relación d Partidas
-Proyecto Presupuesto 2022 V50
-Gastos_2023_V50
-Proyecto Presupuesto 2024 V50
-Proy Presupuesto 2025
+- Source.Name
+- Centro
+- Descripción Centro
+- Sección
+- Descripción Sección
+- Programa
+- Descripción Programa
+- Capítulo
+- Descripción Capítulo
+- Económico
+- Relación d Partidas
+- Proyecto Presupuesto 2022 V50
+- Gastos_2023_V50
+- Proyecto Presupuesto 2024 V50
+- Proy Presupuesto 2025
 
 Paso 7: Tipo cambiado → Ajustamos el tipo de variable
-
+```
 = Table.TransformColumnTypes(#"Columna de tabla expandida1",{{"Source.Name", type text}, {"Centro", Int64.Type}, {"Descripcion Centro", type text}, {"Seccion", Int64.Type}, {"Descripcion Seccion", type text}, {"Programa", Int64.Type}, {"Descripcion Programa", type text}, {"Capitulo", Int64.Type}, {"Descripcion Capitulo", type text}, {"Economico", Int64.Type}, {"Relación de partidas", type text}, {"Proyecto Presupuesto 2022 V50", Int64.Type}, {" Proyecto Presupuesto 2024 V50 ", Int64.Type}, {"Gastos_2023_V50", Int64.Type}, {"Proy Presupuesto 2025", Int64.Type}})
+```
 
 
-
-
-
-
-
-Transformación 2 -Tabla Gastos
+📉Transformación 2 -Tabla Gastos
 
 
 Objetivo: Crear una nueva columna “Gastos 2022_2023_2024_2025” con los gastos de las columnas añadidas en el paso 6 y después eliminar las columnas no deseadas
@@ -131,7 +126,7 @@ Paso 8: Rename columns →  (NUEVO PASO CREADO)
 
 
 Paso 9: Add column → (NUEVO PASO CREADO) Crea una columna de las cuatro anteriores, Gastos_2022_2023_2024_2025
-
+```
 = Table.AddColumn(#"Rename columns", "Gastos_2022_2023_2024_2025", each
 	List.First(List.RemoveNulls({
     	[Proyecto Presupuesto 2022 V50],
@@ -140,21 +135,21 @@ Paso 9: Add column → (NUEVO PASO CREADO) Crea una columna de las cuatro anteri
     	[Proy Presupuesto 2025]
 	}))
 )
-
+```
 
 Paso 10: Add column → (NUEVO PASO CREADO)Eliminar el resto de columnas de gatos
-
+```
 = Table.RemoveColumns(#"Add column", {
 	"Proyecto Presupuesto 2022 V50",
 	"Gastos_2023_V50",
 	"Proyecto Presupuesto 2024 V50",
 	"Proy Presupuesto 2025"
 })
+```
 
 
 
-
-Transformación 3 -Tabla Gastos
+📉 Transformación 3 -Tabla Gastos
 
 
 Objetivo: Crear una nueva columna “Año” con los diferentes años (lo obtenemos de la columna Source.Name)
@@ -170,7 +165,7 @@ Para crear una tabla a partir de la original, hacemos click en la tabla original
 
 Paso 11: column año → (NUEVO PASO CREADO) Crea una nueva columna “Año” con el año que corresponde
 
-
+```
 = Table.AddColumn(#"Delete columns", "Año", each
 	if Text.Contains([Source.Name], "2022") then "2022"
 	else if Text.Contains([Source.Name], "2023") then "2023"
@@ -178,10 +173,10 @@ Paso 11: column año → (NUEVO PASO CREADO) Crea una nueva columna “Año” c
 	else if Text.Contains([Source.Name], "2025") then "2025"
 	else null
 )
+```
 
 
-
-Transformación 4 -Tabla Gastos
+📉Transformación 4 -Tabla Gastos
 
 
 Objetivo: Eliminar valores nulos o vacíos.
@@ -192,11 +187,11 @@ El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 
 Paso 12: Delete Null →  (NUEVO PASO CREADO)
 
-
+```
 = Table.SelectRows(#"Filas filtradas", each [Gastos_2022_2023_2024_2025] <> null and [Gastos_2022_2023_2024_2025] <> "")
 
 = Table.SelectRows(#"Filas filtradas", each [Economico] <> null and [Economico] <> "")
 
 = Table.SelectRows(#"Tipo cambiado1", each [Descripcion Centro] <> null and [Descripcion Centro] <> "")
-
+```
 
