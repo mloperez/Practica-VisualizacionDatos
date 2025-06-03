@@ -49,39 +49,39 @@ Vemos que PowerBI ha realizado los siguientes pasos para combinar los tres archi
 Vamos a revisar paso a paso que es lo que ha hecho sola la herramienta y crearemos un paso más para solventar el problema.
 
 Paso 1: Origen → Cargar los archivos de la carpeta:
-
+```
 = Folder.Files("C:\Users\María\Desktop\MASTER BigData\Visualizacion\powerbi\Gastos")
-
+```
 
 Paso 2: Archivos ocultos filtrados1 → Filtra y elimina las filas donde el valor de Hidden es true.
-
+```
 = Table.SelectRows(Origen, each [Attributes]?[Hidden]? <> true)
-
+```
 
 Paso 3: Invocar función personalizada1 → Crea una nueva columna en la tabla llamada “Content” que contiene el contenido de los archivos en formato binario.
-
+```
 = Table.AddColumn(#"Archivos ocultos filtrados1", "Transformar archivo", each #"Transformar archivo (2)"([Content]))
-
+```
 
 Paso 4: Columnas con nombre cambiado1 → Renombra una columna de la tabla a “Source.Name”
-
+```
 = Table.RenameColumns(#"Invocar función personalizada1", {"Name", "Source.Name"})
-
+```
 
 Paso 5: Otras columnas quitadas1 → Selecciona un subconjunto de columnas de la tabla, para mantener ciertas columnas y elimina el resto.
 
-
+```
 = Table.SelectColumns(#"Columnas con nombre cambiado1", {"Source.Name", "Transformar archivo"})
-
+```
 
 Paso 6: Columna de tabla expandida1 → (NUEVO PASO CREADO) Este nuevo paso se encarga de expandir las tablas dentro de la columna "Transformar archivo" y obtener todas las columnas de todos los archivos CSV
-
+```
 = Table.ExpandTableColumn(
 	#"Otras columnas quitadas1",
 	"Transformar archivo",
 	List.Distinct(List.Combine(List.Transform(#"Otras columnas quitadas1"[Transformar archivo], each Table.ColumnNames(_))))
 )
-
+```
 
 Por tanto ahora vamos tenemos estas columnas:
 
