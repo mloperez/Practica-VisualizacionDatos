@@ -35,9 +35,9 @@ Vemos que hay una de ellas que en los datos originales no tiene el mismo nombre 
 
 📉#Transformación 1 - Tabla Gastos
 
-
-Objetivo: Obtener los gastos de todos los año en columnas diferentes
-
+| 📌 Objetivo                                                 |
+|---------------------------------------------------------------------|
+| Obtener los gastos de todos los año en columnas diferentes. |
 
 
 Nuestra primera transformación va a ser modificar el nombre de la columna para que al combinarlas coja correctamente los valores.
