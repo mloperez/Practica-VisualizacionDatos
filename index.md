@@ -75,7 +75,7 @@ Una vez ingestados veremos que se nos han creado unas tablas con las diferentes 
 
 Columnas creadas:
 
-- Source.Name
+- Source. Name
 - Centro
 - Descripción Centro
 - Sección
