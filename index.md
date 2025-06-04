@@ -408,7 +408,33 @@ El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 
 = Table.SelectRows(#"Tipo cambiado1", each ([Descripcion Centro] <> null and [Descripcion Centro] <> ""))
 ```
+Una vez que tenemos los datos agrupados y sin nulos, procedemos a utilizar R para poder transformar y conseguir tablas que se ajusten a lo que se necesite representar:
 
+```
+## Visualización 3.¿Qué balance existe en cada capitulo a lo largo de los años?
+# Cargar librerías necesarias
+library(readr)
+library(tidyr)
+library(dplyr)
+
+# 1. Leer el archivo CSV original
+datos <- read_csv("fichero.csv")
+
+# 2. Convertir a formato ancho: una columna para Ingreso y otra para Gasto
+datos_ancho <- datos %>%
+  pivot_wider(
+    names_from = tipo,
+    values_from = importe,
+    values_fill = 0  # Rellenar con 0 si falta algún valor
+  )
+
+# 4. Guardar el nuevo dataset en un archivo CSV
+write_csv(datos_ancho, "balance_por_centro_y_ano.csv")
+
+# Mensaje de confirmación
+cat("✅ Archivo exportado como 'balance_por_centro_y_ano.csv'\n")
+
+```
 
 ### Visualización de los datos
 
