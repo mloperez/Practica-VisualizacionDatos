@@ -427,6 +427,23 @@ ayuntamiento_madrid_ingresos <- datos_ingresos %>%
 write.csv(ayuntamiento_madrid_gastos, "ayuntamiento_madrid_gastos.csv", row.names = FALSE)
 write.csv(ayuntamiento_madrid_ingresos, "ayuntamiento_madrid_ingresos.csv", row.names = FALSE)
 ```
+- Se ha tenido que pivotar las columnas para poder usar los datos correctamente en Flourish:
+
+```
+ datos_gastos <- read.csv("ayuntamiento_madrid_gastos.csv", encoding = "UTF-8")
+datos_ingreso <- read.csv("ayuntamiento_madrid_ingresos.csv", encoding = "UTF-8")
+  # Agrupar y sumar los gastos por Descripcion Seccion y Año
+  
+
+# Pivotar para que cada año sea una columna
+gastos_pivot <- datos_gastos %>%
+  pivot_wider(names_from = Año, values_from = Gastos, values_fill = 0)
+ingresos_pivot <- datos_ingreso %>%
+  pivot_wider(names_from = Año, values_from = Ingresos, values_fill = 0)
+
+# Guardar como CSV
+write_csv(ingresos_pivot, "gastos_por_seccion_y_ano.csv")
+```
 
 ### Visualización de los datos
 
