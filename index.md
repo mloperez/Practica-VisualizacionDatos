@@ -21,6 +21,7 @@ Diseño interactivo y comunicativo: Incorporar elementos interactivos que mejore
 Requisitos adicionales: Además de la visualización, el estudiante deberá presentar un video explicativo que aborde los siguientes aspectos, distribuidos en los porcentajes indicados:
 
 **[20%] Proceso de creación: Explicar las etapas del desarrollo, las decisiones de diseño tomadas y los fundamentos detrás de dichas decisiones.**
+
 Para este proyecto he utilizado dos herramientas principales: R y Flourish.
 R es una herramienta muy potente para el análisis de datos, que me ha permitido limpiar, transformar y agrupar los datos según mis necesidades. He usado R para             calcular totales, balances, proporciones y preparar los ficheros CSV para su visualización.
 
@@ -31,6 +32,36 @@ La combinación de ambas herramientas me ha permitido realizar un análisis comp
 **[20%] Presentación en vivo: Mostrar las características de la visualización mientras se navega por ella, destacando aspectos clave del diseño y la funcionalidad.**
 
 **[15%] Conjunto de datos: Describir brevemente las características más relevantes del conjunto de datos utilizado, su origen y cualquier proceso de preparación realizado.**
+
+
+Se ha elegido la herramienta PowerBI para el análisis y tratamiento de los datos.
+
+Datos seleccionados:
+
+    Presupuesto general 2024
+    Presupuestos. Proyectos de Presupuesto de ejercicios anteriores - Conjunto de datos - datos.gob.es
+
+En primer lugar debemos ingestar los diferentes conjuntos de datos en PowerBI Desktop.
+
+Para ello en Inicio > Obtener Datos > Carpeta. Seleccionamos las carpetas donde se encuentran nuestros conjuntos de datos.
+
+📁Carpeta Gastos
+
+    “Proyecto Presupuesto 2022 V50.csv”
+    “Gastos_Proyecto_2023.csv”
+    “V50_Gastos_Proyecto_2024.csv”
+    “V50_Gastos_Proyecto_2025.csv”
+
+📁Carpeta Ingresos
+
+    “Ingresos_Proyecto_2022.csv”
+    “Ingresos_Proyecto_2023.csv”
+    “V50_Ingresos_Proyecto_2024.csv”
+    “V40_Ingresos_Presupuesto_2025.csv”
+
+Y seleccionamos --> Combinar y Transformar Datos
+
+Para combinar lo datos PowerBI toma de ejemplo el primer archivo en este caso → Gastos_Proyecto_2022.csv y Ingresos_Proyecto_2022.csv
 He estructurado el proyecto de forma clara y coherente. En primer lugar, presento los datos utilizados y explico brevemente su origen y estructura: cada fila representa un registro económico con un centro, año, tipo (ingreso o gasto) e importe.
 
 A continuación, presento diferentes visualizaciones diseñadas para responder a preguntas concretas, y cierro con conclusiones basadas en los resultados.
