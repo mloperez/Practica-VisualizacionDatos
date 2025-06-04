@@ -28,13 +28,13 @@ R es una herramienta muy potente para el análisis de datos, que me ha permitido
 Por otro lado, he usado Flourish para crear visualizaciones interactivas. Flourish me permite diseñar gráficos dinámicos, comprensibles y atractivos para públicos no       técnicos, como gestores públicos o ciudadanos.
 
 La combinación de ambas herramientas me ha permitido realizar un análisis completo: desde el tratamiento de los datos hasta su comunicación visual.
-    
-**[20%] Presentación en vivo: Mostrar las características de la visualización mientras se navega por ella, destacando aspectos clave del diseño y la funcionalidad.**
+
+#[20%] Presentación en vivo: Mostrar las características de la visualización mientras se navega por ella, destacando aspectos clave del diseño y la funcionalidad
 
 **[15%] Conjunto de datos: Describir brevemente las características más relevantes del conjunto de datos utilizado, su origen y cualquier proceso de preparación realizado.**
 
 
-Se ha elegido la herramienta PowerBI para el análisis y tratamiento de los datos.
+Se ha elegido la herramienta PowerBI para el análisis de los datos y se ha utilizado DAX y R para el tratamiento de los datos.
 
 Datos seleccionados:
 
@@ -43,7 +43,7 @@ Datos seleccionados:
 
 En primer lugar debemos ingestar los diferentes conjuntos de datos en PowerBI Desktop.
 
-Para ello en Inicio > Obtener Datos > Carpeta. Seleccionamos las carpetas donde se encuentran nuestros conjuntos de datos.
+
 
 📁Carpeta Gastos
 
@@ -58,15 +58,13 @@ Para ello en Inicio > Obtener Datos > Carpeta. Seleccionamos las carpetas donde 
     “Ingresos_Proyecto_2023.csv”
     “V50_Ingresos_Proyecto_2024.csv”
     “V40_Ingresos_Presupuesto_2025.csv”
-
-Y seleccionamos --> Combinar y Transformar Datos
+    
+Para la ingesta de los datos en PowerBI, vamos a Inicio > Obtener Datos > Carpeta. Seleccionamos las carpetas donde se encuentran nuestros conjuntos de datos. Y seleccionamos --> Combinar y Transformar Datos
 
 Para combinar lo datos PowerBI toma de ejemplo el primer archivo en este caso → Gastos_Proyecto_2022.csv y Ingresos_Proyecto_2022.csv
 He estructurado el proyecto de forma clara y coherente. En primer lugar, presento los datos utilizados y explico brevemente su origen y estructura: cada fila representa un registro económico con un centro, año, tipo (ingreso o gasto) e importe.
 
-A continuación, presento diferentes visualizaciones diseñadas para responder a preguntas concretas, y cierro con conclusiones basadas en los resultados.
 
-El proyecto está pensado para comunicar insights relevantes de forma visual, directa y accesible, cumpliendo con estándares de visualización profesional.
 
 **[20%] Preguntas clave: Detallar las preguntas que la visualización responde y cómo estas se abordan a través del diseño interactivo y analítico.**
 
