@@ -422,6 +422,14 @@ La segunda visualización responde a la pregunta: ¿Qué años presentan mayor a
 
 > Esta representación (column chart) muestra la evolución anual del total de ingresos y gastos.
 
+La tercera visualización responde a la pregunta: ¿Qué capítulos concentran mayor cantidad de gastos acumulados a lo largo de los años?
+> Esta representación (treemap) muestra el reparto total de ingresos por capítulos, sumando todos los años disponibles.
+Cada rectángulo representa un capítulo, y su tamaño es proporcional a la suma total de gastos que ha generado. Así se puede identificar fácilmente qué capítulos han aportado más a lo largo del tiempo, y cuáles tienen un peso menor dentro del presupuesto total.
+
+La cuarta visualización responde a la pregunta: ¿Qué capítulos concentran mayor cantidad de ingresos acumulados a lo largo de los años?
+> Esta representación (treemap) muestra el reparto total de ingresos por capítulos, sumando todos los años disponibles.
+Cada rectángulo representa un capítulo, y su tamaño es proporcional a la suma total de ingresos que ha generado. Así se puede identificar fácilmente qué capítulos han aportado más a lo largo del tiempo, y cuáles tienen un peso menor dentro del presupuesto total.
+
 **[15%] Interactividad: Demostrar los elementos interactivos disponibles, explicando cómo contribuyen a la experiencia del usuario. Incluir reflexiones sobre aspectos de accesibilidad.**
 
 **[10%] Reflexión final: Responder a preguntas como: ¿Qué he aprendido de los datos y de las técnicas empleadas? ¿Qué limitaciones he encontrado? ¿Qué me habría gustado hacer y no pude?**
