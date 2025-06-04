@@ -20,22 +20,28 @@ Respuestas a preguntas clave: Formular y responder razonadamente. a preguntas cl
 Diseño interactivo y comunicativo: Incorporar elementos interactivos que mejoren la experiencia del usuario y favorezcan la comunicación efectiva de los resultados.
 Requisitos adicionales: Además de la visualización, el estudiante deberá presentar un video explicativo que aborde los siguientes aspectos, distribuidos en los porcentajes indicados:
 
-[20%] Proceso de creación: Explicar las etapas del desarrollo, las decisiones de diseño tomadas y los fundamentos detrás de dichas decisiones.
-    Para este proyecto he utilizado dos herramientas principales: R y Flourish.
-    R es una herramienta muy potente para el análisis de datos, que me ha permitido limpiar, transformar y agrupar los datos según mis necesidades. He usado R para             calcular totales, balances, proporciones y preparar los ficheros CSV para su visualización.
+**[20%] Proceso de creación: Explicar las etapas del desarrollo, las decisiones de diseño tomadas y los fundamentos detrás de dichas decisiones.**
+Para este proyecto he utilizado dos herramientas principales: R y Flourish.
+R es una herramienta muy potente para el análisis de datos, que me ha permitido limpiar, transformar y agrupar los datos según mis necesidades. He usado R para             calcular totales, balances, proporciones y preparar los ficheros CSV para su visualización.
 
-    Por otro lado, he usado Flourish para crear visualizaciones interactivas. Flourish me permite diseñar gráficos dinámicos, comprensibles y atractivos para públicos no       técnicos, como gestores públicos o ciudadanos.
-    La combinación de ambas herramientas me ha permitido realizar un análisis completo: desde el tratamiento de los datos hasta su comunicación visual.
+Por otro lado, he usado Flourish para crear visualizaciones interactivas. Flourish me permite diseñar gráficos dinámicos, comprensibles y atractivos para públicos no       técnicos, como gestores públicos o ciudadanos.
+
+La combinación de ambas herramientas me ha permitido realizar un análisis completo: desde el tratamiento de los datos hasta su comunicación visual.
     
-[20%] Presentación en vivo: Mostrar las características de la visualización mientras se navega por ella, destacando aspectos clave del diseño y la funcionalidad.
+**[20%] Presentación en vivo: Mostrar las características de la visualización mientras se navega por ella, destacando aspectos clave del diseño y la funcionalidad.**
 
-[15%] Conjunto de datos: Describir brevemente las características más relevantes del conjunto de datos utilizado, su origen y cualquier proceso de preparación realizado.
+**[15%] Conjunto de datos: Describir brevemente las características más relevantes del conjunto de datos utilizado, su origen y cualquier proceso de preparación realizado.**
+He estructurado el proyecto de forma clara y coherente. En primer lugar, presento los datos utilizados y explico brevemente su origen y estructura: cada fila representa un registro económico con un centro, año, tipo (ingreso o gasto) e importe.
 
-[20%] Preguntas clave: Detallar las preguntas que la visualización responde y cómo estas se abordan a través del diseño interactivo y analítico.
+A continuación, presento diferentes visualizaciones diseñadas para responder a preguntas concretas, y cierro con conclusiones basadas en los resultados.
 
-[15%] Interactividad: Demostrar los elementos interactivos disponibles, explicando cómo contribuyen a la experiencia del usuario. Incluir reflexiones sobre aspectos de accesibilidad.
+El proyecto está pensado para comunicar insights relevantes de forma visual, directa y accesible, cumpliendo con estándares de visualización profesional.
 
-[10%] Reflexión final: Responder a preguntas como: ¿Qué he aprendido de los datos y de las técnicas empleadas? ¿Qué limitaciones he encontrado? ¿Qué me habría gustado hacer y no pude?
+**[20%] Preguntas clave: Detallar las preguntas que la visualización responde y cómo estas se abordan a través del diseño interactivo y analítico.**
+
+**[15%] Interactividad: Demostrar los elementos interactivos disponibles, explicando cómo contribuyen a la experiencia del usuario. Incluir reflexiones sobre aspectos de accesibilidad.**
+
+**[10%] Reflexión final: Responder a preguntas como: ¿Qué he aprendido de los datos y de las técnicas empleadas? ¿Qué limitaciones he encontrado? ¿Qué me habría gustado hacer y no pude?**
 
 El video deberá tener una duración de entre 4 y 6 minutos. Respetar este rango de tiempo es esencial, ya que se evaluará tanto la capacidad de síntesis como la calidad del guión.
 
