@@ -415,8 +415,11 @@ El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 **[20%] Preguntas clave: Detallar las preguntas que la visualización responde y cómo estas se abordan a través del diseño interactivo y analítico.**
 
 La primera visualización responde a la pregunta: ¿Qué centros tienen mayor actividad económica durante 2022 y 2025?
+
 > Esta representación (bar chart race) muestra la evolución del volumen total (ingresos + gastos) por centro y año.
+
 La segunda visualización responde a la pregunta: ¿Qué años presentan mayor actividad económica total?
+
 > Esta representación (column chart) muestra la evolución anual del total de ingresos y gastos.
 
 **[15%] Interactividad: Demostrar los elementos interactivos disponibles, explicando cómo contribuyen a la experiencia del usuario. Incluir reflexiones sobre aspectos de accesibilidad.**
