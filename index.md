@@ -454,27 +454,41 @@ write_csv(ingresos_concat, "ingresos_por_seccion_y_ano.csv")
 
 **[20%] Preguntas clave: Detallar las preguntas que la visualización responde y cómo estas se abordan a través del diseño interactivo y analítico.**
 
-La primera visualización responde a la pregunta: 1.¿Qué centros tienen mayor actividad económica durante 2022 y 2025?
 
-> Esta representación (bar chart race) muestra la evolución del volumen total (ingresos + gastos) por centro y año.
 
-La segunda visualización responde a la pregunta: 2.¿Qué años presentan mayor actividad económica total?
+La primera visualización responde a la pregunta: 2.¿Qué años presentan mayor actividad económica total?
 
 > Esta representación (column chart) muestra la evolución anual del total de ingresos y gastos.
 
-La tercera visualización responde a la pregunta: 3.¿Qué balance existe en cada capitulo a lo largo de los años?
+La segunda visualización responde a la pregunta: 2.¿Qué sector es el que presenta mayor ingreso y gasto?
 
-> Esta representación (column chart) muestra el balance de cada capitulo a lo largo del año.
+> ...
 
-La cuarta visualización responde a la pregunta: 4.¿Qué capítulos concentran mayor cantidad de gastos acumulados a lo largo de los años?
+La tercera visualización responde a la pregunta: 3.¿Qué capítulos concentran mayor cantidad de gastos acumulados a lo largo de los años?
 
 > Esta representación (treemap) muestra el reparto total de ingresos por capítulos, sumando todos los años disponibles.
 Cada rectángulo representa un capítulo, y su tamaño es proporcional a la suma total de gastos que ha generado. Así se puede identificar fácilmente qué capítulos han aportado más a lo largo del tiempo, y cuáles tienen un peso menor dentro del presupuesto total.
 
-La quinta visualización responde a la pregunta: 5.¿Qué capítulos concentran mayor cantidad de ingresos acumulados a lo largo de los años?
+La cuarta visualización responde a la pregunta: 4.¿Qué capítulos concentran mayor cantidad de ingresos acumulados a lo largo de los años?
 
 > Esta representación (treemap) muestra el reparto total de ingresos por capítulos, sumando todos los años disponibles.
 Cada rectángulo representa un capítulo, y su tamaño es proporcional a la suma total de ingresos que ha generado. Así se puede identificar fácilmente qué capítulos han aportado más a lo largo del tiempo, y cuáles tienen un peso menor dentro del presupuesto total.
+
+La quinta visualización responde a la pregunta: 5.¿Cómo se distribuyen los gatos en el ayto. de Madrid durante el periodo?
+
+> ....
+
+La sexta visualización responde a la pregunta: 6¿De dónde provienen los ingresos en el ayto. de Madrid en el periodo?
+
+> ....
+
+La séptima visualización responde a la pregunta: 7.Dentro del Ayuntamiento, ¿En que sección se ha gastado más en cada año? ¿Qué relación  de gastos existe entre las diferentes secciones?
+
+> ....
+
+La octava visualización responde a la pregunta: 8.Dentro del Ayuntamiento, ¿Qué sección ha generado mayor ingreso? ¿Qué relación de ingresos existe entre las diferentes secciones?
+
+> ....
 
 **[15%] Interactividad: Demostrar los elementos interactivos disponibles, explicando cómo contribuyen a la experiencia del usuario. Incluir reflexiones sobre aspectos de accesibilidad.**
 
