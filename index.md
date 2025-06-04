@@ -410,30 +410,22 @@ El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 ```
 Una vez que tenemos los datos agrupados y sin nulos, procedemos a utilizar R para poder transformar y conseguir tablas que se ajusten a lo que se necesite representar:
 
+- Obtener CSV de gastos y otro de ingresos que unicamente contenga Ayuntamiento de Madrid:
 ```
-## Visualización 3.¿Qué balance existe en cada capitulo a lo largo de los años?
-# Cargar librerías necesarias
-library(readr)
-library(tidyr)
-library(dplyr)
+# Paso 1: Leer tu archivo original
+datos_gastos <- read.csv("3.Gastos total.csv", encoding = "UTF-8")
+datos_ingresos <- read.csv("4.Ingresos total.csv", encoding = "UTF-8")
 
-# 1. Leer el archivo CSV original
-datos <- read_csv("fichero.csv")
+# Paso 2: Filtrar por "AYUNTAMIENTO DE MADRID"
+ayuntamiento_madrid_gastos <- datos_gastos %>%
+  filter(Descripcion.Centro == "AYUNTAMIENTO DE MADRID")
 
-# 2. Convertir a formato ancho: una columna para Ingreso y otra para Gasto
-datos_ancho <- datos %>%
-  pivot_wider(
-    names_from = tipo,
-    values_from = importe,
-    values_fill = 0  # Rellenar con 0 si falta algún valor
-  )
+ayuntamiento_madrid_ingresos <- datos_ingresos %>%
+  filter(Descripcion.Centro == "AYUNTAMIENTO DE MADRID")
 
-# 4. Guardar el nuevo dataset en un archivo CSV
-write_csv(datos_ancho, "balance_por_centro_y_ano.csv")
-
-# Mensaje de confirmación
-cat("✅ Archivo exportado como 'balance_por_centro_y_ano.csv'\n")
-
+# Paso 3: Exportar a CSV
+write.csv(ayuntamiento_madrid_gastos, "ayuntamiento_madrid_gastos.csv", row.names = FALSE)
+write.csv(ayuntamiento_madrid_ingresos, "ayuntamiento_madrid_ingresos.csv", row.names = FALSE)
 ```
 
 ### Visualización de los datos
