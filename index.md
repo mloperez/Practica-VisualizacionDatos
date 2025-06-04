@@ -29,10 +29,11 @@ Por otro lado, he usado Flourish para crear visualizaciones interactivas. Flouri
 
 La combinación de ambas herramientas me ha permitido realizar un análisis completo: desde el tratamiento de los datos hasta su comunicación visual.
 
-#[20%] Presentación en vivo: Mostrar las características de la visualización mientras se navega por ella, destacando aspectos clave del diseño y la funcionalidad
+## [20%] Presentación en vivo: Mostrar las características de la visualización mientras se navega por ella, destacando aspectos clave del diseño y la funcionalidad
 
-**[15%] Conjunto de datos: Describir brevemente las características más relevantes del conjunto de datos utilizado, su origen y cualquier proceso de preparación realizado.**
+## [15%] Conjunto de datos: Describir brevemente las características más relevantes del conjunto de datos utilizado, su origen y cualquier proceso de preparación realizado
 
+### Análisis de Datos
 
 Se ha elegido la herramienta PowerBI para el análisis de los datos y se ha utilizado DAX y R para el tratamiento de los datos.
 
@@ -41,9 +42,7 @@ Datos seleccionados:
     Presupuesto general 2024
     Presupuestos. Proyectos de Presupuesto de ejercicios anteriores - Conjunto de datos - datos.gob.es
 
-En primer lugar debemos ingestar los diferentes conjuntos de datos en PowerBI Desktop.
-
-
+Los datos estan distribuidos de la siguiente manera:
 
 📁Carpeta Gastos
 
@@ -59,11 +58,17 @@ En primer lugar debemos ingestar los diferentes conjuntos de datos en PowerBI De
     “V50_Ingresos_Proyecto_2024.csv”
     “V40_Ingresos_Presupuesto_2025.csv”
     
+### Ingesta de datos
+
 Para la ingesta de los datos en PowerBI, vamos a Inicio > Obtener Datos > Carpeta. Seleccionamos las carpetas donde se encuentran nuestros conjuntos de datos. Y seleccionamos --> Combinar y Transformar Datos
 
 Para combinar lo datos PowerBI toma de ejemplo el primer archivo en este caso → Gastos_Proyecto_2022.csv y Ingresos_Proyecto_2022.csv
 He estructurado el proyecto de forma clara y coherente. En primer lugar, presento los datos utilizados y explico brevemente su origen y estructura: cada fila representa un registro económico con un centro, año, tipo (ingreso o gasto) e importe.
 
+
+### Transformación de los datos
+
+### Visualización de los datos
 
 
 **[20%] Preguntas clave: Detallar las preguntas que la visualización responde y cómo estas se abordan a través del diseño interactivo y analítico.**
