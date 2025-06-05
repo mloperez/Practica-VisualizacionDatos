@@ -157,11 +157,6 @@ Por tanto ahora vamos tenemos estas columnas:
 - Proyecto Presupuesto 2024 V50
 - Proy Presupuesto 2025
 
-- Paso 7: Tipo cambiado → Ajustamos el tipo de variable
-```
-= Table.TransformColumnTypes(#"Columna de tabla expandida1",{{"Sorce Name", type text}, {"Centro", Int64.Type}, {"Descripcion Centro", type text}, {"Seccion", Int64.Type}, {"Descripcion Seccion", type text}, {"Programa", Int64.Type}, {"Descripcion Programa", type text}, {"Capitulo", Int64.Type}, {"Descripcion Capitulo", type text}, {"Economico", Int64.Type}, {"Relación de partidas", type text}, {"Proyecto Presupuesto 2022 V50", Int64.Type}, {" Proyecto Presupuesto 2024 V50 ", Int64.Type}, {"Gastos_2023_V50", Int64.Type}, {"Proy Presupuesto 2025", Int64.Type}})
-```
-
 
 📉Transformación 2 -Tabla Gastos
 
@@ -169,17 +164,15 @@ Por tanto ahora vamos tenemos estas columnas:
 
 El siguiente paso que vamos a realizar es unificar en una única columna, las cuatro anteriormente indicadas:
 
-
-
 Debido a que cuando una de ellas tiene un valor el resto tiene el valor null, esto es debido al combinar las tres tablas en una sola.
 
-- Paso 8: Rename columns →  (NUEVO PASO CREADO)
+- Paso 7: Rename columns →  (NUEVO PASO CREADO)
 
 ```
 = Table.RenameColumns(#"Tipo cambiado", List.Transform(Table.ColumnNames(#"Tipo cambiado"), each {_, Text.Trim(_)}))
 ```
 
-- Paso 9: Add column → (NUEVO PASO CREADO) Crea una columna de las cuatro anteriores, Gastos_2022_2023_2024_2025
+- Paso 8: Add column → (NUEVO PASO CREADO) Crea una columna de las cuatro anteriores, Gastos_2022_2023_2024_2025
 ```
 = Table.AddColumn(#"Rename columns", "Gastos_2022_2023_2024_2025", each
 	List.First(List.RemoveNulls({
@@ -191,7 +184,7 @@ Debido a que cuando una de ellas tiene un valor el resto tiene el valor null, es
 )
 ```
 
-- Paso 10: Add column → (NUEVO PASO CREADO)Eliminar el resto de columnas de gatos
+- Paso 9: Add column → (NUEVO PASO CREADO)Eliminar el resto de columnas de gatos
 ```
 = Table.RemoveColumns(#"Add column", {
 	"Proyecto Presupuesto 2022 V50",
@@ -215,7 +208,7 @@ Para evitar hacer modificaciones en la tabla original, vamos a crear tablas nuev
 
 Para crear una tabla a partir de la original, hacemos click en la tabla original > Referencia.
 
-- Paso 11: column año → (NUEVO PASO CREADO) Crea una nueva columna “Año” con el año que corresponde
+- Paso 10: column año → (NUEVO PASO CREADO) Crea una nueva columna “Año” con el año que corresponde
 
 ```
 = Table.AddColumn(#"Delete columns", "Año", each
@@ -236,7 +229,7 @@ Para crear una tabla a partir de la original, hacemos click en la tabla original
 El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 
 
-- Paso 12: Delete Null →  (NUEVO PASO CREADO)
+- Paso 11: Delete Null →  (NUEVO PASO CREADO)
 
 ```
 = Table.SelectRows(#"Filas filtradas", each [Gastos_2022_2023_2024_2025] <> null and [Gastos_2022_2023_2024_2025] <> "")
@@ -322,11 +315,6 @@ Por tanto ahora vamos tenemos estas columnas:
 - Proyecto Ppto Ingresos 2024 V50
 - Presupuesto 2025
 
-- Paso 7: Tipo cambiado → Ajustamos el tipo de variable
-```
-= Table.TransformColumnTypes(#"Columna de tabla expandida1",{{"Source.Name", type text}, {"Centro", Int64.Type}, {"Descripcion Centro", type text}, {"Capitulo", Int64.Type}, {"Descripcion Capitulo", type text}, {"Economico", Int64.Type}, {"Relación de partidas", type text}, {"Proyecto Ppto Ingresos 2022 V50", Int64.Type}, {"Ingresos_2023_V50", Int64.Type}, {"Proyecto Ppto Ingresos 2024 V50", Int64.Type}, {"Presupuesto 2025", Int64.Type}})
-```
-
 
 📈Transformación 2 -Tabla Ingresos
 
@@ -334,17 +322,15 @@ Por tanto ahora vamos tenemos estas columnas:
 
 El siguiente paso que vamos a realizar es unificar en una única columna, las cuatro anteriormente indicadas:
 
-
-
 Debido a que cuando una de ellas tiene un valor el resto tiene el valor null, esto es debido al combinar las tres tablas en una sola.
 
-- Paso 8: Rename columns →  (NUEVO PASO CREADO)
+- Paso 7: Rename columns →  (NUEVO PASO CREADO)
 
 ```
 = Table.RenameColumns(#"Tipo cambiado", List.Transform(Table.ColumnNames(#"Tipo cambiado"), each {_, Text.Trim(_)}))
 ```
 
-- Paso 9: Add column → (NUEVO PASO CREADO) Crea una columna de las cuatro anteriores, Ingresos 2022_2023_2024_2025
+- Paso 8: Add column → (NUEVO PASO CREADO) Crea una columna de las cuatro anteriores, Ingresos 2022_2023_2024_2025
 ```
 = Table.AddColumn(#"Rename columns", "Ingresos_2022_2023_2024_2025", each
 	List.First(List.RemoveNulls({
@@ -356,7 +342,7 @@ Debido a que cuando una de ellas tiene un valor el resto tiene el valor null, es
 )
 ```
 
-- Paso 10: Delete columns → (NUEVO PASO CREADO)Eliminar el resto de columnas de gatos
+- Paso 9: Delete columns → (NUEVO PASO CREADO)Eliminar el resto de columnas de gatos
 ```
 = Table.RemoveColumns(#"Add column", {
 	"Proyecto Presupuesto 2022 V50",
@@ -379,7 +365,7 @@ Para evitar hacer modificaciones en la tabla original, vamos a crear tablas nuev
 
 Para crear una tabla a partir de la original, hacemos click en la tabla original > Referencia.
 
-- Paso 11: column año → (NUEVO PASO CREADO) Crea una nueva columna “Año” con el año que corresponde
+- Paso 10: column año → (NUEVO PASO CREADO) Crea una nueva columna “Año” con el año que corresponde
 
 ```
 = Table.AddColumn(#"Delete columns", "Año", each
@@ -399,7 +385,7 @@ Para crear una tabla a partir de la original, hacemos click en la tabla original
 El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 
 
-- Paso 12: Delete Null →  (NUEVO PASO CREADO)
+- Paso 11: Delete Null →  (NUEVO PASO CREADO)
 
 ```
 = Table.SelectRows(#"Filas filtradas1", each [Ingresos_2022_2023_2024_2025] <> null and [Ingresos_2022_2023_2024_2025] <> "")
@@ -408,6 +394,8 @@ El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 
 = Table.SelectRows(#"Tipo cambiado1", each ([Descripcion Centro] <> null and [Descripcion Centro] <> ""))
 ```
+# Uso de R para transformar
+
 Una vez que tenemos los datos agrupados y sin nulos, procedemos a utilizar R para poder transformar y conseguir tablas que se ajusten a lo que se necesite representar:
 
 - Obtener CSV de gastos y otro de ingresos que unicamente contenga Ayuntamiento de Madrid:
