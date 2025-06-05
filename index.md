@@ -159,7 +159,7 @@ Por tanto ahora vamos tenemos estas columnas:
 
 - Paso 7: Tipo cambiado → Ajustamos el tipo de variable
 ```
-= Table.TransformColumnTypes(#"Columna de tabla expandida1",{{"Source.Name", type text}, {"Centro", Int64.Type}, {"Descripcion Centro", type text}, {"Seccion", Int64.Type}, {"Descripcion Seccion", type text}, {"Programa", Int64.Type}, {"Descripcion Programa", type text}, {"Capitulo", Int64.Type}, {"Descripcion Capitulo", type text}, {"Economico", Int64.Type}, {"Relación de partidas", type text}, {"Proyecto Presupuesto 2022 V50", Int64.Type}, {" Proyecto Presupuesto 2024 V50 ", Int64.Type}, {"Gastos_2023_V50", Int64.Type}, {"Proy Presupuesto 2025", Int64.Type}})
+= Table.TransformColumnTypes(#"Columna de tabla expandida1",{{"Source. Name", type text}, {"Centro", Int64.Type}, {"Descripcion Centro", type text}, {"Seccion", Int64.Type}, {"Descripcion Seccion", type text}, {"Programa", Int64.Type}, {"Descripcion Programa", type text}, {"Capitulo", Int64.Type}, {"Descripcion Capitulo", type text}, {"Economico", Int64.Type}, {"Relación de partidas", type text}, {"Proyecto Presupuesto 2022 V50", Int64.Type}, {" Proyecto Presupuesto 2024 V50 ", Int64.Type}, {"Gastos_2023_V50", Int64.Type}, {"Proy Presupuesto 2025", Int64.Type}})
 ```
 
 
