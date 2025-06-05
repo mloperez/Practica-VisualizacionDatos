@@ -449,12 +449,10 @@ write_csv(gastos_pivot, "gastos_por_seccion_y_ano.csv")
 write_csv(ingresos_concat, "ingresos_por_seccion_y_ano.csv")
 ```
 
-### Visualización de los datos
-
 
 **[20%] Preguntas clave: Detallar las preguntas que la visualización responde y cómo estas se abordan a través del diseño interactivo y analítico.**
 
-
+[Proyecto en Flourish](https://public.flourish.studio/story/3148434/)
 
 La primera visualización responde a la pregunta: 1.¿Qué años presentan mayor actividad económica total?
 
