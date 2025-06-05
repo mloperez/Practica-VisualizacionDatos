@@ -400,39 +400,39 @@ Una vez que tenemos los datos agrupados y sin nulos, procedemos a utilizar R par
 
 - Obtener CSV de gastos y otro de ingresos que unicamente contenga Ayuntamiento de Madrid:
 ```
-# Paso 1: Leer tu archivo original
+Paso 1: Leer tu archivo original
 datos_gastos <- read.csv("3.Gastos total.csv", encoding = "UTF-8")
 datos_ingresos <- read.csv("4.Ingresos total.csv", encoding = "UTF-8")
 
-# Paso 2: Filtrar por "AYUNTAMIENTO DE MADRID"
+Paso 2: Filtrar por "AYUNTAMIENTO DE MADRID"
 ayuntamiento_madrid_gastos <- datos_gastos %>%
   filter(Descripcion.Centro == "AYUNTAMIENTO DE MADRID")
 
 ayuntamiento_madrid_ingresos <- datos_ingresos %>%
   filter(Descripcion.Centro == "AYUNTAMIENTO DE MADRID")
 
-# Paso 3: Exportar a CSV
+Paso 3: Exportar a CSV
 write.csv(ayuntamiento_madrid_gastos, "ayuntamiento_madrid_gastos.csv", row.names = FALSE)
 write.csv(ayuntamiento_madrid_ingresos, "ayuntamiento_madrid_ingresos.csv", row.names = FALSE)
 ```
 - Se ha tenido que pivotar las columnas y concatenar valores de columnas para poder usar los datos correctamente en Flourish:
 
 ```
-  datos_gastos <- read.csv("ayuntamiento_madrid_gastos.csv", encoding = "UTF-8")
+datos_gastos <- read.csv("ayuntamiento_madrid_gastos.csv", encoding = "UTF-8")
 datos_ingreso <- read.csv("ayuntamiento_madrid_ingresos.csv", encoding = "UTF-8")
-  # Agrupar y sumar los gastos por Descripcion Seccion y Año
+Agrupar y sumar los gastos por Descripcion Seccion y Año
 
-# Pivotar para que cada año sea una columna
+Pivotar para que cada año sea una columna
 gastos_pivot <- datos_gastos %>%
   pivot_wider(names_from = Año, values_from = Gastos, values_fill = 0)
 ingresos_pivot <- datos_ingreso %>%
   pivot_wider(names_from = Año, values_from = Ingresos, values_fill = 0)
   
-#concatenar 
+concatenar 
 ingresos_concat <- ingresos_pivot %>%
   mutate(Seccion_Año = paste(Descripcion.Capitulo, Relación.de.partidas, sep = " - "))
 
-# Guardar como CSV
+Guardar como CSV
 write_csv(gastos_pivot, "gastos_por_seccion_y_ano.csv")
 write_csv(ingresos_concat, "ingresos_por_seccion_y_ano.csv")
 ```
