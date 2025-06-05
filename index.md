@@ -456,13 +456,13 @@ write_csv(ingresos_concat, "ingresos_por_seccion_y_ano.csv")
 
 
 
-La primera visualización responde a la pregunta: 2.¿Qué años presentan mayor actividad económica total?
+La primera visualización responde a la pregunta: 1.¿Qué años presentan mayor actividad económica total?
 
-> Esta representación (column chart) muestra la evolución anual del total de ingresos y gastos.
+> Esta representación, en forma de gráfico de columnas, muestra la evolución anual del total de ingresos y gastos. Se han utilizado diferentes colores para cada año. Podemos comprobar que efectivamente los ingresos y gastos han aumentado progresivamente con el tiempo. El usuario puede pasar el cursor por cada una de las columnas para obtener el valor concreto de gasto o ingreso total por año.
 
 La segunda visualización responde a la pregunta: 2.¿Qué sector es el que presenta mayor ingreso y gasto?
 
-> ...
+> Esta representación contiene dos gráficos de columnas, la primera muestra el gasto total mientras que en la segunda se muestra el ingreso total. Pudiendo elegir el año para ver como modifica estos valores a lo largo del periodo. Tambien se puede pasar el cursor por cada una de las columnas para obtener el valor concreto de ingreso y gasto acumulado en el año. Se ha seleccionado diferentes colores ara cada sector. Como se puede observar el sector con mayor gasto e ingreso es relativo al Ayuntamiento de Madrid, por tanto en las siguientes visualizacione svamos a analizar en que areas y subsectores se acumula mas gasto e ingreso.
 
 La tercera visualización responde a la pregunta: 3.¿Qué capítulos concentran mayor cantidad de gastos acumulados a lo largo de los años?
 
@@ -476,19 +476,19 @@ Cada rectángulo representa un capítulo, y su tamaño es proporcional a la suma
 
 La quinta visualización responde a la pregunta: 5.¿Cómo se distribuyen los gatos en el ayto. de Madrid durante el periodo?
 
-> ....
+> Esta representación (bar chart race) muestra la distribución de gastos en el ayuntamiento de Madrid a lo largo de 2022 y 2025. Se ha escogido el color rojo para representar el valor de gastos.
 
 La sexta visualización responde a la pregunta: 6¿De dónde provienen los ingresos en el ayto. de Madrid en el periodo?
 
-> ....
+> Esta representación (bar chart race) muestra la distribución de ingresos en el ayuntamiento de Madrid a lo largo de 2022 y 2025. Se ha escogido el color verde para representar el valor de ingresos. Como se puede observar la mayor parte de los ingresos provienen de transferencias corrientes e impuestos directos.
 
 La séptima visualización responde a la pregunta: 7.Dentro del Ayuntamiento, ¿En que sección se ha gastado más en cada año? ¿Qué relación  de gastos existe entre las diferentes secciones?
 
-> ....
+> Esta representación (Circles) muestra la distribución de gastados en el ayuntamiento de Madrid pudiendo seleccionar cada año. Con este tipo de representación podemos observa facilmente en que sectores se acumula el mayor gasto en el ayuntamiento de Madrid. Tambien podemos seleccionar un sector para poder ver con mayor precisión cada una de los subsectores. Se ha elegido diferentes colores para cada sector.
 
 La octava visualización responde a la pregunta: 8.Dentro del Ayuntamiento, ¿Qué sección ha generado mayor ingreso? ¿Qué relación de ingresos existe entre las diferentes secciones?
 
-> ....
+> Esta representación (Circles) muestra la distribución de ingresos en el ayuntamiento de Madrid pudiendo seleccionar cada año. Con este tipo de representación podemos observa facilmente en que sectores se acumula el mayor gasto en el ayuntamiento de Madrid. Tambien podemos seleccionar un sector para poder ver con mayor precisión cada una de los subsectores. Se ha elegido diferentes colores para cada sector.
 
 **[15%] Interactividad: Demostrar los elementos interactivos disponibles, explicando cómo contribuyen a la experiencia del usuario. Incluir reflexiones sobre aspectos de accesibilidad.**
 
