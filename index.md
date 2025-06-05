@@ -399,6 +399,7 @@ El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 Una vez que tenemos los datos agrupados y sin nulos, procedemos a utilizar R para poder transformar y conseguir tablas que se ajusten a lo que se necesite representar:
 
 - Obtener CSV de gastos y otro de ingresos que unicamente contenga Ayuntamiento de Madrid:
+  
 ```
 Paso 1: Leer tu archivo original
 datos_gastos <- read.csv("3.Gastos total.csv", encoding = "UTF-8")
