@@ -456,3 +456,7 @@ write_csv(ingresos_concat, "ingresos_por_seccion_y_ano.csv")
 [Proyecto en Flourish](https://public.flourish.studio/story/3148434/)
 
 
+(Mapa Conceptual Doodle A mano Multicolor.png)
+
+
+
