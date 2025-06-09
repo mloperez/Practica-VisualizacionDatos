@@ -47,7 +47,7 @@ El video deberá tener una duración de entre 4 y 6 minutos. Respetar este rango
 
 # Tareas realizadas 
 
-### Análisis de Datos
+## Análisis de Datos
 
 Se ha elegido la herramienta PowerBI para el análisis de los datos y se ha utilizado DAX y R para el tratamiento de los datos.
 
@@ -73,16 +73,16 @@ Los datos estan distribuidos de la siguiente manera:
     “V50_Ingresos_Proyecto_2024.csv”
     “V40_Ingresos_Presupuesto_2025.csv”
     
-### Ingesta de datos
+## Ingesta de datos
 
 Para la ingesta de los datos en PowerBI, vamos a Inicio > Obtener Datos > Carpeta. Seleccionamos las carpetas donde se encuentran nuestros conjuntos de datos. Y seleccionamos --> Combinar y Transformar Datos
 
 Para combinar lo datos PowerBI toma de ejemplo el primer archivo en este caso → Gastos_Proyecto_2022.csv y Ingresos_Proyecto_2022.csv
 He estructurado el proyecto de forma clara y coherente. En primer lugar, presento los datos utilizados y explico brevemente su origen y estructura: cada fila representa un registro económico con un centro, año, tipo (ingreso o gasto) e importe.
 
-### Transformación de los datos
+## Transformación de los datos
 
-## ℹ️ Transformaciones en Tabla Gastos
+### ℹ️ Transformaciones en Tabla Gastos
 
 
 Una vez ingestados veremos que se nos han creado unas tablas con las diferentes columnas. En la primera fila se encuentran cada una de las variables y en el resto sus valores.
@@ -105,7 +105,7 @@ Columnas creadas:
 Vemos que hay una de ellas que en los datos originales no tiene el mismo nombre en todos los conjuntos de datos “Proyecto Presupuesto 2022 V50”. Por tanto comprobamos que en este columna para los csv no usados de ejemplo “Gastos_Proyecto_2023.csv”, “V50_Gastos_Proyecto_2024.csv” y “V50_Gastos_Proyecto_2025.csv” todos los valores son null.
 
 
-📉#Transformación 1 - Tabla Gastos
+ ### 📉 Transformación 1 - Tabla Gastos
 
  📌**Objetivo:** Obtener los gastos de todos los año en columnas diferentes.     
 
@@ -172,7 +172,7 @@ Por tanto ahora vamos tenemos estas columnas:
 - Proy Presupuesto 2025
 
 
-📉Transformación 2 -Tabla Gastos
+### 📈Transformación 2 -Tabla Gastos
 
  📌**Objetivo:** Crear una nueva columna “Gastos 2022_2023_2024_2025” con los gastos de las columnas añadidas en el paso 6 y después eliminar las columnas no deseadas.
 
@@ -210,7 +210,7 @@ Debido a que cuando una de ellas tiene un valor el resto tiene el valor null, es
 
 
 
-📉 Transformación 3 -Tabla Gastos
+### 📉 Transformación 3 -Tabla Gastos
 
 📌**Objetivo:** Crear una nueva columna “Año” con los diferentes años (lo obtenemos de la columna Source.Name).
 
@@ -235,7 +235,7 @@ Para crear una tabla a partir de la original, hacemos click en la tabla original
 ```
 
 
-📉Transformación 4 -Tabla Gastos
+### 📉 Transformación 4 -Tabla Gastos
 
 
 📌**Objetivo:** Eliminar valores nulos o vacíos.
@@ -253,7 +253,7 @@ El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 = Table.SelectRows(#"Tipo cambiado1", each [Descripcion Centro] <> null and [Descripcion Centro] <> "")
 ```
 
-## ℹ️ Transformaciones en Tabla Ingresos
+### ℹ️ Transformaciones en Tabla Ingresos
 
 Una vez ingestados veremos que se nos han creado unas tablas con las diferentes columnas. En la primera fila se encuentran cada una de las variables y en el resto sus valores.
 
@@ -272,7 +272,7 @@ Vemos que hay una de ellas que en los datos originales no tiene el mismo nombre 
 
 
 
-📈Transformación 1 - Tabla Ingresos
+### 📈 Transformación 1 - Tabla Ingresos
  
 📌**Objetivo:** Obtener los ingresos de todos los año en columnas diferentes
 
@@ -330,7 +330,7 @@ Por tanto ahora vamos tenemos estas columnas:
 - Presupuesto 2025
 
 
-📈Transformación 2 -Tabla Ingresos
+### 📈 Transformación 2 -Tabla Ingresos
 
 📌**Objetivo:** Crear una nueva columna “Ingresos 2022_2023_2024_2025” con los ingresos de las columnas añadidas en el paso 6 y después eliminar las columnas no deseadas
 
@@ -367,7 +367,7 @@ Debido a que cuando una de ellas tiene un valor el resto tiene el valor null, es
 ```
 
 
-📈Transformación 3 -Tabla Ingresos
+### 📈 Transformación 3 -Tabla Ingresos
 
 📌**Objetivo:** Crear una nueva columna “Año” con los diferentes años (lo obtenemos de la columna Source.Name)
 
@@ -391,7 +391,7 @@ Para crear una tabla a partir de la original, hacemos click en la tabla original
 )
 ```
 
-📈 Transformación 4 -Tabla Ingresos
+### 📈 Transformación 4 -Tabla Ingresos
 
 📌**Objetivo:** Eliminar valores nulos o vacíos.
 
@@ -408,7 +408,7 @@ El siguiente paso que vamos a realizar es eliminar valores vacíos o nulos.
 
 = Table.SelectRows(#"Tipo cambiado1", each ([Descripcion Centro] <> null and [Descripcion Centro] <> ""))
 ```
-# Uso de R para transformar
+#### Uso de R para transformar
 
 Una vez que tenemos los datos agrupados y sin nulos, procedemos a utilizar R para poder transformar y conseguir tablas que se ajusten a lo que se necesite representar:
 
@@ -452,7 +452,7 @@ write_csv(gastos_pivot, "gastos_por_seccion_y_ano.csv")
 write_csv(ingresos_concat, "ingresos_por_seccion_y_ano.csv")
 ```
 
-### Visualización de Datos
+## 📈 Visualización de Datos
 [Proyecto en Flourish](https://public.flourish.studio/story/3148434/)
 
 
